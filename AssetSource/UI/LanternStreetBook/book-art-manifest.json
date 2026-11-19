@@ -1,0 +1,72 @@
+{
+  "editable_inputs": [
+    "AssetSource/UI/LanternStreetBook/PaperSampleLeft.png",
+    "AssetSource/UI/LanternStreetBook/PaperSampleRight.png",
+    "AssetSource/Models/LanternStreet/*.glb",
+    "AssetSource/Models/LanternStreet/T_LanternPaperAtlas.png"
+  ],
+  "credit": "Project team, original and AI-assisted Paper Theatre visuals. Book paper sampled from the accepted team menu painting. The frontispiece renders the authored starting room, including its cut-paper window and family photograph.",
+  "display_canvas": [
+    1280,
+    720
+  ],
+  "desk_fold": [
+    [
+      697,
+      306
+    ],
+    [
+      687,
+      621
+    ]
+  ],
+  "turn_leaf_rect": [
+    692,
+    255,
+    548,
+    373
+  ],
+  "leaf_pivot": [
+    0,
+    0.55
+  ],
+  "spread_spine": 640,
+  "writeable_left": [
+    54,
+    58,
+    590,
+    653
+  ],
+  "writeable_right": [
+    685,
+    58,
+    1224,
+    653
+  ],
+  "artifacts": {
+    "T_BookCleanSpread": {
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 596041,
+      "sha256": "22219e1eea698a58b4e58ef5ad2b0c94e4066fe3fd92f41420f3bf8692f23224"
+    },
+    "T_BookTurningLeaf": {
+      "size": [
+        560,
+        384
+      ],
+      "bytes": 108711,
+      "sha256": "ab3cb82ebdf05624ef5f223e2d0783559c5c3431af70c7bac173e18eb5b08f4e"
+    },
+    "T_BookIntroStreet": {
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 44469,
+      "sha256": "2d91493e4bb53fb58e67fd96bb961b7f15611ab8c1db5c8c03dac63e25c9b9c5"
+    }
+  }
+}

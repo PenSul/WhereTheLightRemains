@@ -1,0 +1,382 @@
+{
+  "id": "kenney-furniture-kit",
+  "title": "Furniture Kit - ordinary household selection",
+  "author": "Kenney",
+  "archive": "kenney_furniture-kit.zip",
+  "source_url": "https://kenney.nl/assets/furniture-kit",
+  "download_url": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+  "download_method": "Exact original creator ZIP link via the page Continue without donating control.",
+  "source_preview_url": "https://kenney.nl/media/pages/assets/furniture-kit/d049bcc581-1677580840/preview.png",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence": "Original creator page marks Creative Commons CC0; exact License.txt retained from source ZIP (which identifies Furniture Kit 2.0).",
+  "rejected_or_omitted_roles": [
+    "All electronic devices and modern kitchen/bathroom fixtures",
+    "Most repeated furniture variations",
+    "Beds and bookcases from other packs to avoid duplicates"
+  ],
+  "missing_roles": [
+    "Open ledger/book",
+    "Paper character in an ordinary brown overcoat",
+    "Reference-specific wall lantern and potted plant"
+  ],
+  "readme": "# Kenney Furniture Kit - ordinary household selection\n\nThree unmodified portable GLBs: bedSingle, table and bookcaseOpen.\nOriginal source: https://kenney.nl/assets/furniture-kit\nAuthor: Kenney. License: CC0 1.0 Universal; exact source License.txt retained.\n\nThe selected GLBs use glTF 2.0 and embedded material colours. They declare no\nexternal image textures. Their plain frames and broad faces suit the Paper\nTheatre reference after a small palette/paper-surface change. Check scene scale\nand pivots after private import; an edge bevel is optional. No electronics,\nmodern kitchen/bathroom fixtures, or redundant furniture variations are retained.\n\nAll three GLBs passed a separate Blender 5.2.2 LTS background import. Bed\nand bookcase stock-material renders were inspected. The bed imports only\n1.125 m long, the table 0.327 m high and the bookcase 0.880 m high; match\nfurniture scale to Elias before placement. The bed has three child meshes,\nso preserve its hierarchy when preparing a derived working copy. Source\nbytes and credit hashes remain unchanged. UE 4.27.2 validation is pending.\nPer-file dimensions, mesh/material details, hashes and roles are in SOURCE.json.\n",
+  "retrieved_utc_date": "2026-10-14",
+  "archive_sha256": "e67652d0932cee41683f74711c03d3e192a2af9979ef8e6b237711f5482d46b0",
+  "model_count": 3,
+  "files": [
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/kenney-furniture-kit/Models/GLTF format/bedSingle.glb",
+      "archive_path": "Models/GLTF format/bedSingle.glb",
+      "size_bytes": 18636,
+      "sha256": "ca00c63f9a12da3138d902b2f5f18e0360fb6e8a5ac42ccb4bc3f185724b65d1",
+      "category": "prop",
+      "role": "Ordinary single bed for the upper house cutaway",
+      "fit_rationale": "Plain wood-framed furniture with clean broad faces, ordinary proportions and no decorative genre details. The original geometry can be used with the reference palette and a paper material.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by original preview and GLB material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint embedded material slots to wood brown, cream and navy",
+        "Apply the project paper surface",
+        "Check scale and pivot during private Blender import; optional small edge bevel"
+      ],
+      "required_texture_filenames": [],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 3,
+        "vertex_count": 366,
+        "triangle_count": 214,
+        "bounds_min_m": [
+          0.385,
+          0.0,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.956,
+          1.125,
+          0.375
+        ],
+        "dimensions_m": [
+          0.571,
+          1.125,
+          0.375
+        ],
+        "material_names": [
+          "carpetWhite",
+          "wood",
+          "carpet",
+          "metal"
+        ],
+        "material_image_node_count": 0,
+        "principled_alpha_values": {
+          "carpetWhite": [
+            1.0
+          ],
+          "wood": [
+            1.0
+          ],
+          "carpet": [
+            1.0
+          ],
+          "metal": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 0,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "bedSingle(Clone)",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "carpetWhite",
+              "wood",
+              "metal"
+            ]
+          },
+          {
+            "name": "cover",
+            "type": "MESH",
+            "origin_world_m": [
+              0.01,
+              0.792302,
+              0.215
+            ],
+            "local_scale": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "local_rotation_radians": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "carpet",
+              "carpetWhite"
+            ]
+          },
+          {
+            "name": "pillow",
+            "type": "MESH",
+            "origin_world_m": [
+              0.503,
+              1.031267,
+              0.217045
+            ],
+            "local_scale": [
+              0.5,
+              0.85,
+              0.5
+            ],
+            "local_rotation_radians": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "carpetWhite"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/kenney-furniture-kit/Models/GLTF format/table.glb",
+      "archive_path": "Models/GLTF format/table.glb",
+      "size_bytes": 8196,
+      "sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+      "category": "prop",
+      "role": "Simple wooden writing table or workshop worktable",
+      "fit_rationale": "Plain wood-framed furniture with clean broad faces, ordinary proportions and no decorative genre details. The original geometry can be used with the reference palette and a paper material.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by original preview and GLB material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint embedded material slots to wood brown, cream and navy",
+        "Apply the project paper surface",
+        "Check scale and pivot during private Blender import; optional small edge bevel"
+      ],
+      "required_texture_filenames": [],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 168,
+        "triangle_count": 120,
+        "bounds_min_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.841488,
+          0.447373,
+          0.326734
+        ],
+        "dimensions_m": [
+          0.841488,
+          0.447373,
+          0.326734
+        ],
+        "material_names": [
+          "wood.001"
+        ],
+        "material_image_node_count": 0,
+        "principled_alpha_values": {
+          "wood.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 0,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "table(Clone)",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "wood.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/kenney-furniture-kit/Models/GLTF format/bookcaseOpen.glb",
+      "archive_path": "Models/GLTF format/bookcaseOpen.glb",
+      "size_bytes": 18020,
+      "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+      "category": "prop",
+      "role": "Ordinary open wooden shelf for the workshop and house",
+      "fit_rationale": "Plain wood-framed furniture with clean broad faces, ordinary proportions and no decorative genre details. The original geometry can be used with the reference palette and a paper material.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by original preview and GLB material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint embedded material slots to wood brown, cream and navy",
+        "Apply the project paper surface",
+        "Check scale and pivot during private Blender import; optional small edge bevel"
+      ],
+      "required_texture_filenames": [],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 400,
+        "triangle_count": 320,
+        "bounds_min_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.4,
+          0.25,
+          0.88
+        ],
+        "dimensions_m": [
+          0.4,
+          0.25,
+          0.88
+        ],
+        "material_names": [
+          "wood.002"
+        ],
+        "material_image_node_count": 0,
+        "principled_alpha_values": {
+          "wood.002": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 0,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "bookcaseOpen(Clone)",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "wood.002"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "license",
+      "path": "AssetSource/ThirdParty/Models/kenney-furniture-kit/License.txt",
+      "archive_path": "License.txt",
+      "size_bytes": 614,
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29"
+    }
+  ],
+  "verification": {
+    "style_references_inspected": [
+      "lantern-street.png",
+      "footbridge.png",
+      "workshop.png",
+      "house-landing.png",
+      "character-props.png",
+      "environment-story-kit.png"
+    ],
+    "creator_previews_inspected": true,
+    "zip_paths_checked": true,
+    "source_license_texts_inspected": true,
+    "fbx_glb_import_validation": "Passed in separate Blender 5.2.2 LTS background factory-startup process; UE 4.27.2 remains unvalidated.",
+    "blender_or_unreal_live_editor_changes": "none",
+    "render_validation": {
+      "blender_version": "5.2.2 LTS",
+      "representative_models_rendered_and_inspected": [
+        "bedSingle",
+        "bookcaseOpen"
+      ],
+      "all_models_rendered": false,
+      "source_bytes_modified": false,
+      "paper_material_refinement_performed": false,
+      "temporary_material_adjustments": {}
+    },
+    "generated_substitute_models": "none"
+  },
+  "blender_import_validation": {
+    "version": "5.2.2 LTS",
+    "checked_utc": "2026-10-14T16:11:52.197930+00:00",
+    "process_mode": "separate background factory-startup, autoexec disabled",
+    "status": "passed",
+    "model_file_count": 3,
+    "mesh_object_count": 5,
+    "unresolved_referenced_texture_count": 0,
+    "source_bytes_unchanged": true,
+    "representative_renders_inspected": [
+      "bedSingle",
+      "bookcaseOpen"
+    ],
+    "ue_4_27_2_import_validation": "not performed"
+  }
+}

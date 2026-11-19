@@ -1,0 +1,22 @@
+{
+  "source_file": "AssetSource/UI/LanternStreetStory/T_StormSupper.png",
+  "source_texture": "/Game/WTLR/UI/Art/T_StormSupper",
+  "sha256": "1ad728458339ca8fab1dadb92299521cb6b0da16e8c9753416bc5a1b8954a245",
+  "provenance": "Original AI-assisted project illustration of Mara and Elias at the supper table, prepared for the Lantern Street opening. The existing texture is shared with the kitchen photograph.",
+  "treatment": "Original framing crop in source pixels, warm silver-print colour grading, rough matte surface and paper mount.",
+  "source_crop_px": [
+    371,
+    24,
+    1178,
+    829
+  ],
+  "mesh_assets": [
+    "/Game/WTLR/Art/LanternStreet/Polish/FamilyPhotograph/SM_ArchivalPhotoMount/StaticMeshes/SM_ArchivalPhotoMount.SM_ArchivalPhotoMount",
+    "/Game/WTLR/Art/LanternStreet/Polish/FamilyPhotograph/SM_MaraAndEliasAtSupper/StaticMeshes/SM_MaraAndEliasAtSupper.SM_MaraAndEliasAtSupper"
+  ],
+  "station": "Station.7",
+  "print_size_cm": [
+    61,
+    60.8
+  ]
+}

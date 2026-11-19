@@ -1,0 +1,114 @@
+{
+  "BootStoneL": {
+    "id": 1,
+    "seconds": 0.175,
+    "peak_dbfs": -12.5,
+    "rate": 32000,
+    "sha256": "c66cd9c6966a18422f39db88ad2967f5be038a231821c7ff4c797349f69831fa"
+  },
+  "BootStoneR": {
+    "id": 2,
+    "seconds": 0.185,
+    "peak_dbfs": -12.6,
+    "rate": 32000,
+    "sha256": "9aa9c62c1f1baab8291238ebb9ae4c493ad0cdbe5ddd2b18e1bfaa331a2ab01d"
+  },
+  "BootTimberL": {
+    "id": 3,
+    "seconds": 0.207,
+    "peak_dbfs": -12.0,
+    "rate": 32000,
+    "sha256": "004ef755ab208339f7034842f308de9e8ce116c32161f296185b0d6e7054f85d"
+  },
+  "BootTimberR": {
+    "id": 4,
+    "seconds": 0.223,
+    "peak_dbfs": -12.2,
+    "rate": 32000,
+    "sha256": "fc29e10250af7fc080ff1d78706fe3b26b50c56e6dfe8aca9c27815c6bb6501d"
+  },
+  "BootLift": {
+    "id": 5,
+    "seconds": 0.159,
+    "peak_dbfs": -15.0,
+    "rate": 32000,
+    "sha256": "2325c75f46168cb5751f2c338b29bd0a7cbd654c4d1f704b993c1bc509c942db"
+  },
+  "LandStone": {
+    "id": 6,
+    "seconds": 0.279,
+    "peak_dbfs": -9.4,
+    "rate": 32000,
+    "sha256": "41857227ab166003509d51c266162f53e5671e7166595b8b8cc9dec711a6303d"
+  },
+  "LandTimber": {
+    "id": 7,
+    "seconds": 0.296,
+    "peak_dbfs": -9.5,
+    "rate": 32000,
+    "sha256": "a29b90764af2934189ba71414b803824309ca0b59292196c057cc0bb77bcc6d8"
+  },
+  "DoorSwing": {
+    "id": 10,
+    "seconds": 0.84,
+    "peak_dbfs": -11.8,
+    "rate": 32000,
+    "sha256": "7757cbd1ac03b92fc18c4cdb766ff9a4276fb2f6be96a25e64904d62def1414f"
+  },
+  "QuayLatch": {
+    "id": 11,
+    "seconds": 0.45,
+    "peak_dbfs": -10.8,
+    "rate": 32000,
+    "sha256": "1f28556f65cb18368d74b9cb0e6e70ffc01729930cbe2c6547318e76e3800e9a"
+  },
+  "ReedsBurn": {
+    "id": 12,
+    "seconds": 0.75,
+    "peak_dbfs": -13.1,
+    "rate": 32000,
+    "sha256": "63dd435e355a6917a030747b4d2d1c4feadcc3ac3d90bb91aad780bf547b7c42"
+  },
+  "KeepWick": {
+    "id": 13,
+    "seconds": 0.48,
+    "peak_dbfs": -13.2,
+    "rate": 32000,
+    "sha256": "36d42b3b836412584a904592094293f9b6fba3b0bafb6883509d90878bc971db"
+  },
+  "KeepCrate": {
+    "id": 14,
+    "seconds": 0.45,
+    "peak_dbfs": -12.5,
+    "rate": 32000,
+    "sha256": "ab223b1efbcf55a1ffd6e864dd8f0d898b80888dc12db7ae1d9867887823f3d5"
+  },
+  "PlaceWick": {
+    "id": 15,
+    "seconds": 0.415,
+    "peak_dbfs": -12.3,
+    "rate": 32000,
+    "sha256": "a2a4a8819f796c4d0c8fd4607390665e7f68b5cbb653b6b699930acf67a6c2d6"
+  },
+  "PlaceCrate": {
+    "id": 16,
+    "seconds": 0.42,
+    "peak_dbfs": -10.9,
+    "rate": 32000,
+    "sha256": "dff754b5fa61c45ea5b6fa688f9d4bf6ed4a53df6c3ed944c1f51b2909b4a417"
+  },
+  "ReturnWick": {
+    "id": 17,
+    "seconds": 0.455,
+    "peak_dbfs": -13.0,
+    "rate": 32000,
+    "sha256": "7853e7cea467598e3d49b5e30ba1f0e942716c373d759c024e421dad7fe2f2a6"
+  },
+  "ReturnCrate": {
+    "id": 18,
+    "seconds": 0.44,
+    "peak_dbfs": -12.4,
+    "rate": 32000,
+    "sha256": "89ef2d8127b9de1e14d7ec796e34dac4a4dfb6e43449ee31b8f9fe1f6aa53fe2"
+  }
+}

@@ -1,0 +1,2456 @@
+{
+  "id": "quaternius-medieval-village-megakit-standard",
+  "title": "Medieval Village MegaKit - Standard free selection",
+  "author": "Quaternius",
+  "archive": "quaternius-medieval-village-megakit-standard.zip",
+  "source_url": "https://quaternius.com/packs/medievalvillagemegakit.html",
+  "download_url": "https://quaternius.itch.io/medieval-village-megakit",
+  "download_method": "Original creator itch.io Standard edition, No thanks just take me to the downloads; no payment, account creation, or new terms acceptance.",
+  "source_preview_url": "https://quaternius.com/assets/images/fullres/medievalvillagemegakit/standard.jpg",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence": "Creator website and creator itch.io page explicitly mark the assets CC0; exact License_Standard.txt retained from the downloaded source archive.",
+  "rejected_or_omitted_roles": [
+    "Fantasy towers and whole medieval buildings",
+    "Ornate metal fences",
+    "Wagon",
+    "Most repeated roof sizes and colour/material variants",
+    "Vines as a substitute for the required potted plant",
+    "Fully assembled hoist and pulley mechanism not supplied by this selected set"
+  ],
+  "missing_roles": [
+    "Complete hoist/crank/pulley mechanism",
+    "Damaged bridge and torn-paper wall variants",
+    "Background sailboats",
+    "Potted plant with the reference silhouette"
+  ],
+  "readme": "# Quaternius Medieval Village MegaKit - compact Standard selection\n\n24 original FBX environment parts selected for Where the Light Remains.\nOriginal source: https://quaternius.com/packs/medievalvillagemegakit.html\nOriginal download: https://quaternius.itch.io/medieval-village-megakit\nAuthor: Quaternius. License: CC0 1.0 Universal.\nThe exact creator License_Standard.txt is retained under the original archive path.\n\nPlain plaster openings, wood decks and rails, stone stairs, door trim and a small\npitched tile roof match the Paper Theatre construction language. Retint the\nexisting slots and use the project paper surface; do not rebuild their shapes.\nStock textures are retained for selected material declarations, including the\ncreator's alternate Godot-Unity normal maps for the Blender-to-Unreal workflow.\nThe two metal ornament images are supplied by the creator in the glTF folder.\nFBX material paths may need relinking after import.\n\nThe source files remain unmodified. All 24 FBXs passed a separate Blender\n5.2.2 LTS background import with no unresolved referenced images after original\ntexture relinking. Six representative stock-material renders were inspected.\nThe facade carries visible timber bracing and the full roof is steep; review\nthese shapes, depth and placement against the shallow paper reference. Mesh\nbounds may extend below or away from the (0,0,0) object origins. UE 4.27.2\nimport/render validation remains pending. SOURCE.json records measured import\nbounds, material slots, hashes, roles and small permitted adjustments.\n",
+  "retrieved_utc_date": "2026-10-14",
+  "archive_sha256": "e60dea67c10f30dccccfbff92a7933f5ea5cfe99be0e2a0fa5118cceabeec5c4",
+  "model_count": 24,
+  "files": [
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Straight.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Straight.fbx",
+      "size_bytes": 28700,
+      "sha256": "5ef84f632e74ab0b6703853f137443c289d3a2792600b9bc90945da95b76c373",
+      "category": "environment",
+      "role": "Plain shallow facade panel",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_Plaster"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_Plaster_Normal.png",
+        "T_Plaster_BaseColor.png",
+        "T_Plaster_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 84,
+        "triangle_count": 86,
+        "bounds_min_m": [
+          -1.0,
+          -0.092447,
+          -0.002096
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.314036,
+          3.122689
+        ],
+        "dimensions_m": [
+          2.0,
+          0.406483,
+          3.124785
+        ],
+        "material_names": [
+          "MI_WoodTrim",
+          "MI_Plaster"
+        ],
+        "material_image_node_count": 5,
+        "principled_alpha_values": {
+          "MI_WoodTrim": [
+            1.0
+          ],
+          "MI_Plaster": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 5,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Wall_Plaster_Straight",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim",
+              "MI_Plaster"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": [],
+        "art_fit_caveat": "Visible central/diagonal timber bracing; review as a timber-framed workshop/secondary facade rather than a featureless plaster face."
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Straight_Base.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Straight_Base.fbx",
+      "size_bytes": 33132,
+      "sha256": "946f7df01d27b2b664dbd630be1873724f23278f3e6802f2eb713ba1b522db19",
+      "category": "environment",
+      "role": "Facade panel with a lower foundation edge",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_Plaster",
+        "MI_Brick"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_Plaster_Normal.png",
+        "T_Plaster_BaseColor.png",
+        "T_Plaster_ORM.png",
+        "T_Brick_Normal.png",
+        "T_Brick_BaseColor.png",
+        "T_Brick_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 58,
+        "triangle_count": 64,
+        "bounds_min_m": [
+          -1.0,
+          -0.092447,
+          -0.0
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.314036,
+          3.122689
+        ],
+        "dimensions_m": [
+          2.0,
+          0.406483,
+          3.122689
+        ],
+        "material_names": [
+          "MI_WoodTrim.001",
+          "MI_Plaster.001",
+          "MI_Brick"
+        ],
+        "material_image_node_count": 8,
+        "principled_alpha_values": {
+          "MI_WoodTrim.001": [
+            1.0
+          ],
+          "MI_Plaster.001": [
+            1.0
+          ],
+          "MI_Brick": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 8,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Wall_Plaster_Straight_Base",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.001",
+              "MI_Plaster.001",
+              "MI_Brick"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Door_Flat.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Door_Flat.fbx",
+      "size_bytes": 32220,
+      "sha256": "00b8c9389ceb8ccd580714f86451539851a95631876e31b89ca91f78d50eaa36",
+      "category": "environment",
+      "role": "Straight doorway wall opening",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_Plaster",
+        "MI_RockTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_Plaster_Normal.png",
+        "T_Plaster_BaseColor.png",
+        "T_Plaster_ORM.png",
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 84,
+        "triangle_count": 92,
+        "bounds_min_m": [
+          -1.0,
+          -0.092447,
+          -0.0
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.314036,
+          3.122689
+        ],
+        "dimensions_m": [
+          2.0,
+          0.406483,
+          3.122689
+        ],
+        "material_names": [
+          "MI_WoodTrim.002",
+          "MI_Plaster.002",
+          "MI_RockTrim"
+        ],
+        "material_image_node_count": 7,
+        "principled_alpha_values": {
+          "MI_WoodTrim.002": [
+            1.0
+          ],
+          "MI_Plaster.002": [
+            1.0
+          ],
+          "MI_RockTrim": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 7,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Wall_Plaster_Door_Flat",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.002",
+              "MI_Plaster.002",
+              "MI_RockTrim"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Door_Round.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Door_Round.fbx",
+      "size_bytes": 33740,
+      "sha256": "07577a717488d49096828aea81da294b7bbe43794be9007a4376abed59e4538c",
+      "category": "environment",
+      "role": "Arched doorway wall opening",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_Plaster",
+        "MI_RockTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_Plaster_Normal.png",
+        "T_Plaster_BaseColor.png",
+        "T_Plaster_ORM.png",
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 121,
+        "triangle_count": 137,
+        "bounds_min_m": [
+          -1.0,
+          -0.092447,
+          -0.0
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.314036,
+          3.122689
+        ],
+        "dimensions_m": [
+          2.0,
+          0.406483,
+          3.122689
+        ],
+        "material_names": [
+          "MI_WoodTrim.003",
+          "MI_RockTrim.001",
+          "MI_Plaster.003"
+        ],
+        "material_image_node_count": 7,
+        "principled_alpha_values": {
+          "MI_WoodTrim.003": [
+            1.0
+          ],
+          "MI_RockTrim.001": [
+            1.0
+          ],
+          "MI_Plaster.003": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 7,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Wall_Plaster_Door_Round",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.003",
+              "MI_Plaster.003",
+              "MI_RockTrim.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Window_Wide_Flat2.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Wall_Plaster_Window_Wide_Flat2.fbx",
+      "size_bytes": 29740,
+      "sha256": "c995afa20ffdbbe06bd39b4ae42b41710965266537af233241c40e399b1dbb33",
+      "category": "environment",
+      "role": "Simple rectangular window wall opening",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_Plaster"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_Plaster_Normal.png",
+        "T_Plaster_BaseColor.png",
+        "T_Plaster_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 118,
+        "triangle_count": 122,
+        "bounds_min_m": [
+          -1.0,
+          -0.092447,
+          -0.023046
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.314036,
+          3.122689
+        ],
+        "dimensions_m": [
+          2.0,
+          0.406483,
+          3.145735
+        ],
+        "material_names": [
+          "MI_WoodTrim.004",
+          "MI_Plaster.004"
+        ],
+        "material_image_node_count": 5,
+        "principled_alpha_values": {
+          "MI_WoodTrim.004": [
+            1.0
+          ],
+          "MI_Plaster.004": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 5,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Wall_Plaster_Window_Wide_Flat2",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.004",
+              "MI_Plaster.004"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Corner_Exterior_TopDown.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Corner_Exterior_TopDown.fbx",
+      "size_bytes": 22428,
+      "sha256": "ac56afc0d0394e9be70280f4633ce42ecb93faeaa801da6b0def34dad6db8b17",
+      "category": "environment",
+      "role": "Exterior corner trim joining two facade panels",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 16,
+        "triangle_count": 16,
+        "bounds_min_m": [
+          -0.092446,
+          -0.092447,
+          0.649578
+        ],
+        "bounds_max_m": [
+          0.000538,
+          0.000538,
+          3.116763
+        ],
+        "dimensions_m": [
+          0.092984,
+          0.092985,
+          2.467185
+        ],
+        "material_names": [
+          "MI_WoodTrim.005"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.005": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Corner_Exterior_TopDown",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.005"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Corner_Interior_Big.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Corner_Interior_Big.fbx",
+      "size_bytes": 22252,
+      "sha256": "e331f36554dfe989afbedf21a0a6b21bf5b031dafb9b75945e188bbe0ede5466",
+      "category": "environment",
+      "role": "Interior corner trim for the workshop and house cutaway",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 16,
+        "triangle_count": 24,
+        "bounds_min_m": [
+          -0.009264,
+          -0.044234,
+          -0.0
+        ],
+        "bounds_max_m": [
+          0.323879,
+          0.323892,
+          3.0
+        ],
+        "dimensions_m": [
+          0.333143,
+          0.368126,
+          3.0
+        ],
+        "material_names": [
+          "MI_WoodTrim.006"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.006": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Corner_Interior_Big",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.006"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/DoorFrame_Flat_Brick.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/DoorFrame_Flat_Brick.fbx",
+      "size_bytes": 72556,
+      "sha256": "8422ef9ee1f1c5766165d4b9106e26e333d65caa1a5d8666f7f1660948ab700d",
+      "category": "environment",
+      "role": "Cream stone trim around a plain straight door",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_RockTrim"
+      ],
+      "required_texture_filenames": [
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 990,
+        "triangle_count": 1880,
+        "bounds_min_m": [
+          -0.788206,
+          -0.199193,
+          -0.001693
+        ],
+        "bounds_max_m": [
+          0.786402,
+          0.295134,
+          2.373966
+        ],
+        "dimensions_m": [
+          1.574607,
+          0.494328,
+          2.375659
+        ],
+        "material_names": [
+          "MI_RockTrim.002"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_RockTrim.002": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "DoorFrame_Flat_Brick",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_RockTrim.002"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/DoorFrame_Round_Brick.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/DoorFrame_Round_Brick.fbx",
+      "size_bytes": 75884,
+      "sha256": "c74a995d4c5f74e5c69b01240a3dfbcccb86951dec3845863fc9fcccfc9fc68a",
+      "category": "environment",
+      "role": "Cream stone arch around the harbour entry",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_RockTrim"
+      ],
+      "required_texture_filenames": [
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 1077,
+        "triangle_count": 2046,
+        "bounds_min_m": [
+          -0.804116,
+          -0.182036,
+          -0.001693
+        ],
+        "bounds_max_m": [
+          0.799004,
+          0.295134,
+          2.584479
+        ],
+        "dimensions_m": [
+          1.60312,
+          0.47717,
+          2.586171
+        ],
+        "material_names": [
+          "MI_RockTrim.003"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_RockTrim.003": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "DoorFrame_Round_Brick",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_RockTrim.003"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Door_4_Flat.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Door_4_Flat.fbx",
+      "size_bytes": 57020,
+      "sha256": "2e2c1420b00596da579c50107f3846d4e9f7961a98681a0feacf8cca736eb3ad",
+      "category": "environment",
+      "role": "Solid ordinary straight wooden door",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim_Wear",
+        "MI_MetalOrnaments"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_MetalOrnaments_BaseColor.png",
+        "T_MetalOrnaments_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 802,
+        "triangle_count": 1044,
+        "bounds_min_m": [
+          -0.046263,
+          -0.091759,
+          0.035225
+        ],
+        "bounds_max_m": [
+          1.071603,
+          0.117588,
+          2.127085
+        ],
+        "dimensions_m": [
+          1.117866,
+          0.209347,
+          2.09186
+        ],
+        "material_names": [
+          "MI_WoodTrim_Wear",
+          "MI_MetalOrnaments"
+        ],
+        "material_image_node_count": 5,
+        "principled_alpha_values": {
+          "MI_WoodTrim_Wear": [
+            1.0
+          ],
+          "MI_MetalOrnaments": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 5,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Door_4_Flat",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim_Wear",
+              "MI_MetalOrnaments"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Door_4_Round.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Door_4_Round.fbx",
+      "size_bytes": 62316,
+      "sha256": "23364128bcbd4ae20b8761d6a5f0a291a9fb7f54f6ea6fbe0b94ca87e4cff9e8",
+      "category": "environment",
+      "role": "Solid ordinary arched wooden door",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim_Wear",
+        "MI_MetalOrnaments"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_MetalOrnaments_BaseColor.png",
+        "T_MetalOrnaments_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 879,
+        "triangle_count": 1228,
+        "bounds_min_m": [
+          -0.043107,
+          -0.091759,
+          0.03309
+        ],
+        "bounds_max_m": [
+          1.071603,
+          0.117588,
+          2.355848
+        ],
+        "dimensions_m": [
+          1.11471,
+          0.209347,
+          2.322758
+        ],
+        "material_names": [
+          "MI_WoodTrim_Wear.001",
+          "MI_MetalOrnaments.001"
+        ],
+        "material_image_node_count": 5,
+        "principled_alpha_values": {
+          "MI_WoodTrim_Wear.001": [
+            1.0
+          ],
+          "MI_MetalOrnaments.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 5,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Door_4_Round",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim_Wear.001",
+              "MI_MetalOrnaments.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Window_Wide_Flat1.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Window_Wide_Flat1.fbx",
+      "size_bytes": 26812,
+      "sha256": "bcb849e5cb0d6ba9a76b6f8f9b78d3075e1619299fbc1fed452bd44048377769",
+      "category": "environment",
+      "role": "Rectangular framed window with separate glass material",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_WindowGlass"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 132,
+        "triangle_count": 160,
+        "bounds_min_m": [
+          -0.804119,
+          -0.416857,
+          0.944178
+        ],
+        "bounds_max_m": [
+          0.804117,
+          0.266581,
+          2.524289
+        ],
+        "dimensions_m": [
+          1.608236,
+          0.683439,
+          1.580111
+        ],
+        "material_names": [
+          "MI_WoodTrim.007",
+          "MI_WindowGlass"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.007": [
+            1.0
+          ],
+          "MI_WindowGlass": [
+            0.095455
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Window_Wide_Flat1",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.007",
+              "MI_WindowGlass"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/WindowShutters_Wide_Flat_Closed.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/WindowShutters_Wide_Flat_Closed.fbx",
+      "size_bytes": 25804,
+      "sha256": "fc7c094736755d6fb2e7a4150436df02848c237fbeb5660b3f474d07352ae706",
+      "category": "environment",
+      "role": "Wooden shutters beside a facade window",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim_Wear"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 80,
+        "triangle_count": 120,
+        "bounds_min_m": [
+          -0.673468,
+          -0.288234,
+          1.093244
+        ],
+        "bounds_max_m": [
+          0.673468,
+          -0.152465,
+          2.517276
+        ],
+        "dimensions_m": [
+          1.346935,
+          0.13577,
+          1.424031
+        ],
+        "material_names": [
+          "MI_WoodTrim_Wear.002"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim_Wear.002": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "WindowShutters_Wide_Flat_Closed",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim_Wear.002"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Floor_Brick.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Floor_Brick.fbx",
+      "size_bytes": 21692,
+      "sha256": "87bfabc87715b32c26adc3412dff0a2a0cfc77c2dfecddaec0c4f9a8f284c6d8",
+      "category": "environment",
+      "role": "Cream quay paving and walkable floor tile",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_Brick"
+      ],
+      "required_texture_filenames": [
+        "T_Brick_Normal.png",
+        "T_Brick_BaseColor.png",
+        "T_Brick_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 8,
+        "triangle_count": 4,
+        "bounds_min_m": [
+          -1.0,
+          -1.0,
+          -0.010001
+        ],
+        "bounds_max_m": [
+          1.0,
+          1.0,
+          0.01
+        ],
+        "dimensions_m": [
+          2.0,
+          2.0,
+          0.020001
+        ],
+        "material_names": [
+          "MI_Brick.001"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_Brick.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Floor_Brick",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_Brick.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Floor_WoodDark.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Floor_WoodDark.fbx",
+      "size_bytes": 22284,
+      "sha256": "007cc4ea363b385e38010079f04296b219076bf6fa22ab0ae0c090959a456dbf",
+      "category": "environment",
+      "role": "Wooden deck for the footbridge, workshop mezzanine, or landing",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 36,
+        "triangle_count": 32,
+        "bounds_min_m": [
+          -1.0,
+          -1.0,
+          -0.010001
+        ],
+        "bounds_max_m": [
+          1.0,
+          1.0,
+          0.01
+        ],
+        "dimensions_m": [
+          2.0,
+          2.0,
+          0.020001
+        ],
+        "material_names": [
+          "MI_WoodTrim.008"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.008": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Floor_WoodDark",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.008"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Prop_ExteriorBorder_Straight1.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Prop_ExteriorBorder_Straight1.fbx",
+      "size_bytes": 20732,
+      "sha256": "3c9b1d5dd5672a1bca2c78b1adce5731799524436af7f7260c1065e687259630",
+      "category": "environment",
+      "role": "Straight facade border or low quay edge",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_RockTrim"
+      ],
+      "required_texture_filenames": [
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 10,
+        "triangle_count": 16,
+        "bounds_min_m": [
+          -1.0,
+          -0.7,
+          0.0
+        ],
+        "bounds_max_m": [
+          1.0,
+          0.0,
+          0.134018
+        ],
+        "dimensions_m": [
+          2.0,
+          0.7,
+          0.134018
+        ],
+        "material_names": [
+          "MI_RockTrim.004"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_RockTrim.004": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Prop_ExteriorBorder_Straight1",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_RockTrim.004"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Prop_Support.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Prop_Support.fbx",
+      "size_bytes": 22396,
+      "sha256": "af88b48d480f4c9879cd9709c32ed5e0473e8ab99d235248bfc50e9136eb5d6b",
+      "category": "environment",
+      "role": "Diagonal wood support for platforms and the house eaves",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 16,
+        "triangle_count": 16,
+        "bounds_min_m": [
+          -0.099302,
+          -1.91815,
+          1.211389
+        ],
+        "bounds_max_m": [
+          0.099302,
+          0.118123,
+          2.920027
+        ],
+        "dimensions_m": [
+          0.198604,
+          2.036273,
+          1.708637
+        ],
+        "material_names": [
+          "MI_WoodTrim.009"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.009": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Prop_Support",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.009"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Balcony_Cross_Straight.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Balcony_Cross_Straight.fbx",
+      "size_bytes": 25004,
+      "sha256": "cf43713b9060ba0f556e06f367701f0e041b17d2b999b24c70935432af84c0ad",
+      "category": "environment",
+      "role": "Cross-braced wooden railing for the house landing",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 116,
+        "triangle_count": 132,
+        "bounds_min_m": [
+          -1.0,
+          -1.104253,
+          -0.105087
+        ],
+        "bounds_max_m": [
+          1.0,
+          -0.89797,
+          1.1248
+        ],
+        "dimensions_m": [
+          2.000001,
+          0.206283,
+          1.229887
+        ],
+        "material_names": [
+          "MI_WoodTrim.010"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.010": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Balcony_Cross_Straight",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.010"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Balcony_Cross_Corner.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Balcony_Cross_Corner.fbx",
+      "size_bytes": 27948,
+      "sha256": "072aec94b161be78512df87a72844bcba7203f9143c937a7360c165de16d85f5",
+      "category": "environment",
+      "role": "Corner return for the same landing railing",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 216,
+        "triangle_count": 264,
+        "bounds_min_m": [
+          -1.0,
+          -1.000001,
+          -0.105087
+        ],
+        "bounds_max_m": [
+          1.104254,
+          1.104254,
+          1.1248
+        ],
+        "dimensions_m": [
+          2.104254,
+          2.104254,
+          1.229887
+        ],
+        "material_names": [
+          "MI_WoodTrim.011"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.011": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Balcony_Cross_Corner",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.011"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Roof_Modular_RoundTiles.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Roof_Modular_RoundTiles.fbx",
+      "size_bytes": 26236,
+      "sha256": "1324241507dc9982a4c1623e22e86eeedada3db7398a9ec47f33aa322645d366",
+      "category": "environment",
+      "role": "Repeatable small tile-roof module",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_RoundTiles"
+      ],
+      "required_texture_filenames": [
+        "T_RoundTiles_Normal.png",
+        "T_RoundTiles_BaseColor.png",
+        "T_RoundTiles_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 72,
+        "triangle_count": 136,
+        "bounds_min_m": [
+          -0.332467,
+          -1.045537,
+          0.006394
+        ],
+        "bounds_max_m": [
+          0.330753,
+          1.206123,
+          0.511877
+        ],
+        "dimensions_m": [
+          0.66322,
+          2.251659,
+          0.505483
+        ],
+        "material_names": [
+          "MI_RoundTiles"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_RoundTiles": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Roof_Modular_RoundTiles",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_RoundTiles"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Roof_RoundTiles_4x4.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Roof_RoundTiles_4x4.fbx",
+      "size_bytes": 84444,
+      "sha256": "ce10f4d6552237474ef65937b270b61e91ad186f3747034d6e5e87020da07f13",
+      "category": "environment",
+      "role": "One compact complete pitched tile roof",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim",
+        "MI_RoundTiles"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png",
+        "T_RoundTiles_Normal.png",
+        "T_RoundTiles_BaseColor.png",
+        "T_RoundTiles_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 1115,
+        "triangle_count": 1996,
+        "bounds_min_m": [
+          -2.756538,
+          -2.821567,
+          -0.515719
+        ],
+        "bounds_max_m": [
+          2.756538,
+          2.739909,
+          3.733675
+        ],
+        "dimensions_m": [
+          5.513076,
+          5.561476,
+          4.249394
+        ],
+        "material_names": [
+          "MI_WoodTrim.012",
+          "MI_RoundTiles.001"
+        ],
+        "material_image_node_count": 6,
+        "principled_alpha_values": {
+          "MI_WoodTrim.012": [
+            1.0
+          ],
+          "MI_RoundTiles.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 6,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Roof_RoundTiles_4x4",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap",
+              "Wear"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.012",
+              "MI_RoundTiles.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": [],
+        "art_fit_caveat": "Large, steep complete roof; review height/depth scaling and placement against the shallow reference."
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Stairs_Exterior_Straight.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Stairs_Exterior_Straight.fbx",
+      "size_bytes": 27020,
+      "sha256": "e923936e2a81fa95829da0187ee7071aafaf6611092568f0cfc734e2d8c630e8",
+      "category": "environment",
+      "role": "Short stone stair run between quay heights",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_RockTrim",
+        "MI_Brick"
+      ],
+      "required_texture_filenames": [
+        "T_RockTrim_Normal.png",
+        "T_RockTrim_BaseColor.png",
+        "T_RockTrim_ORM.png",
+        "T_Brick_Normal.png",
+        "T_Brick_BaseColor.png",
+        "T_Brick_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 62,
+        "triangle_count": 62,
+        "bounds_min_m": [
+          -1.0,
+          -1.000671,
+          -0.203688
+        ],
+        "bounds_max_m": [
+          1.0,
+          1.077246,
+          1.0
+        ],
+        "dimensions_m": [
+          2.0,
+          2.077918,
+          1.203688
+        ],
+        "material_names": [
+          "MI_RockTrim.005",
+          "MI_Brick.002"
+        ],
+        "material_image_node_count": 5,
+        "principled_alpha_values": {
+          "MI_RockTrim.005": [
+            1.0
+          ],
+          "MI_Brick.002": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 5,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Stairs_Exterior_Straight",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_RockTrim.005",
+              "MI_Brick.002"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Stair_Interior_Simple.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Stair_Interior_Simple.fbx",
+      "size_bytes": 25996,
+      "sha256": "d1e701149bc6cc975ce03cdebf0ad66b4b184209660e4e6e90cc71810ee17a3a",
+      "category": "environment",
+      "role": "Simple open wooden staircase for the workshop and house",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 136,
+        "triangle_count": 208,
+        "bounds_min_m": [
+          -0.834873,
+          -0.034729,
+          -0.010406
+        ],
+        "bounds_max_m": [
+          0.841306,
+          4.584811,
+          3.024588
+        ],
+        "dimensions_m": [
+          1.67618,
+          4.61954,
+          3.034994
+        ],
+        "material_names": [
+          "MI_WoodTrim.013"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.013": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Stair_Interior_Simple",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.013"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/FBX/Stair_Interior_Rails.fbx",
+      "archive_path": "Medieval Village MegaKit[Standard]/FBX/Stair_Interior_Rails.fbx",
+      "size_bytes": 84876,
+      "sha256": "3904f95cfde080249d8201ac92b842d6f1afb94efdd2c5f1d4420de128c0f780",
+      "category": "environment",
+      "role": "Wooden stair handrail for the same stair run",
+      "fit_rationale": "The creator Standard preview shows the simple shallow wall, wood, stone, or pitched-roof geometry used in the Paper Theatre references. This selection omits whole fantasy buildings, towers, ornate metal fences, wagons, and most redundant size variants.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by visual curation; subjective estimate, not a measured render comparison.",
+      "minor_adjustments": [
+        "Retint existing material slots to cream, ink/navy, muted brick, wood brown, or brass as appropriate",
+        "Use the project paper material and reduce stock wood/stone normal intensity",
+        "Check scale and pivot after private Blender import; keep mesh topology and proportions",
+        "Relink supplied texture images if the original FBX contains creator-machine paths"
+      ],
+      "source_materials": [
+        "MI_WoodTrim"
+      ],
+      "required_texture_filenames": [
+        "T_WoodTrim_Normal.png",
+        "T_WoodTrim_BaseColor.png",
+        "T_WoodTrim_Roughness.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 1704,
+        "triangle_count": 3144,
+        "bounds_min_m": [
+          -0.858355,
+          -0.244316,
+          0.022508
+        ],
+        "bounds_max_m": [
+          0.858355,
+          4.318909,
+          3.953075
+        ],
+        "dimensions_m": [
+          1.716711,
+          4.563225,
+          3.930567
+        ],
+        "material_names": [
+          "MI_WoodTrim.014"
+        ],
+        "material_image_node_count": 3,
+        "principled_alpha_values": {
+          "MI_WoodTrim.014": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 3,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Stair_Interior_Rails",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_WoodTrim.014"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Brick_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Brick_BaseColor.png",
+      "size_bytes": 2447169,
+      "sha256": "5515f57e61767838f53f4b9e25aa83b1382ad345ff6b446482718b5140c33813"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Brick_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Brick_Normal.png",
+      "size_bytes": 4474267,
+      "sha256": "6349f1fb3eed9985e6f969c1de04b9e92490020a12ba19a44b96ea808fb27c1a"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_Brick_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_Brick_Normal.png",
+      "size_bytes": 5199854,
+      "sha256": "eb9a0c76b019cd490995fa92d63c375d9c66b05e16cc73aba5cc8c6f1ff3421a"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Brick_Roughness.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Brick_Roughness.png",
+      "size_bytes": 350932,
+      "sha256": "297286525610d5a4b6fa77427b4a2c7cbd1e595eb3ce8fb9391b1118630d01a5"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/glTF/T_MetalOrnaments_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/glTF/T_MetalOrnaments_BaseColor.png",
+      "size_bytes": 725116,
+      "sha256": "28603125908bb443ef7ac405d6bf2978dafdd348081c1dfd21630ac09862b668"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/glTF/T_MetalOrnaments_Roughness.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/glTF/T_MetalOrnaments_Roughness.png",
+      "size_bytes": 89547,
+      "sha256": "2de0135d6ffc3021e2550860107f531d0e64fdd0b46b3bf06f2f85e30b818874"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Plaster_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Plaster_BaseColor.png",
+      "size_bytes": 3316410,
+      "sha256": "98547ca83888307e3ffa96384ce058b7622affe0a42add3b36d0b48618c5eda4"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Plaster_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Plaster_Normal.png",
+      "size_bytes": 4607606,
+      "sha256": "8b9617b561466cce00d5a0628eae7bef208dcf63445d72570e7f8e5057fed0d4"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_Plaster_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_Plaster_Normal.png",
+      "size_bytes": 4575580,
+      "sha256": "da129ede879d0ebe7cc21d092242667ca82514959709cfd1565569898b358bda"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_Plaster_ORM.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_Plaster_ORM.png",
+      "size_bytes": 2381579,
+      "sha256": "7be9d64a6154ba12bb7086e1d6774a7d5bbbc95775efb614f6ff40a4787fe0c7"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RockTrim_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RockTrim_BaseColor.png",
+      "size_bytes": 1908835,
+      "sha256": "aa571cd612091a8f4c95393f8f938bd6e5d47a8cdfd9c896b60a4b37903e2c7c"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RockTrim_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RockTrim_Normal.png",
+      "size_bytes": 3925938,
+      "sha256": "f93f82f7e69aa0bf1900f8ab3f252390f091b771f0b84a345c5fefb0f0155cd3"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_RockTrim_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_RockTrim_Normal.png",
+      "size_bytes": 3921997,
+      "sha256": "381fc15a3555008dbd281ad475969d373d999b17d70da34496c28861cea831fa"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RockTrim_ORM.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RockTrim_ORM.png",
+      "size_bytes": 1625807,
+      "sha256": "5287dd9a4e9fb7423af8d8440a8de8bdb8910f9f37ba148f619a6eddf58d5bc8"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_BaseColor.png",
+      "size_bytes": 4352034,
+      "sha256": "acf388ebd1a97346e1e5b59091cfc609ed15b4f70b83a626089f12a82a2d9997"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_Normal.png",
+      "size_bytes": 3792369,
+      "sha256": "e8cf202fbc1ec36c3f5389a25ab9c99f015d49ae0ca963d0404614c3e1e8f687"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_RoundTiles_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_RoundTiles_Normal.png",
+      "size_bytes": 3256812,
+      "sha256": "af24f7dbde89f8cb0da20b1a0fff35cf411710e033c61a372a2c6472d96fc353"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_Roughness.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_RoundTiles_Roughness.png",
+      "size_bytes": 1445880,
+      "sha256": "02709f84b0a15217c99082fecd7c8d2b44d004973a711b1edd47f69bcfb44c4e"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_BaseColor.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_BaseColor.png",
+      "size_bytes": 2082310,
+      "sha256": "a59f410b07a9bc5f0664df3ba7a2c1e37acffc7979795911f3fc8730ab60e33e"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_Normal.png",
+      "size_bytes": 3596501,
+      "sha256": "5847623e4ed6c206e59f32d1718ee75dcb2b49a1d55ede7ef70a254739caf4a8"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_WoodTrim_Normal.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/Normals Godot-Unity/T_WoodTrim_Normal.png",
+      "size_bytes": 3613847,
+      "sha256": "a2aa15d79245ba1bbdf82c0aa722a6453bb908fa115c4f5bdfb725d45bf6a641"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_Roughness.png",
+      "archive_path": "Medieval Village MegaKit[Standard]/Textures/T_WoodTrim_Roughness.png",
+      "size_bytes": 911823,
+      "sha256": "5f63426bcc8d3db3254599d5a4c729f745a2fb2b7a11b5266b1894e3e7031a32"
+    },
+    {
+      "kind": "license",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-megakit-standard/Medieval Village MegaKit[Standard]/License_Standard.txt",
+      "archive_path": "Medieval Village MegaKit[Standard]/License_Standard.txt",
+      "size_bytes": 840,
+      "sha256": "ec6fd5004514cb0515a7dc1065f474644d31698861597b32e1745945ffec71de"
+    }
+  ],
+  "verification": {
+    "style_references_inspected": [
+      "lantern-street.png",
+      "footbridge.png",
+      "workshop.png",
+      "house-landing.png",
+      "character-props.png",
+      "environment-story-kit.png"
+    ],
+    "creator_previews_inspected": true,
+    "zip_paths_checked": true,
+    "source_license_texts_inspected": true,
+    "fbx_glb_import_validation": "Passed in separate Blender 5.2.2 LTS background factory-startup process; UE 4.27.2 remains unvalidated.",
+    "blender_or_unreal_live_editor_changes": "none",
+    "render_validation": {
+      "blender_version": "5.2.2 LTS",
+      "representative_models_rendered_and_inspected": [
+        "Wall_Plaster_Straight",
+        "Wall_Plaster_Door_Round",
+        "Window_Wide_Flat1",
+        "Balcony_Cross_Straight",
+        "Roof_RoundTiles_4x4",
+        "Stair_Interior_Simple"
+      ],
+      "all_models_rendered": false,
+      "source_bytes_modified": false,
+      "paper_material_refinement_performed": false,
+      "temporary_material_adjustments": {}
+    },
+    "generated_substitute_models": "none"
+  },
+  "blender_import_validation": {
+    "version": "5.2.2 LTS",
+    "checked_utc": "2026-10-14T16:11:52.197930+00:00",
+    "process_mode": "separate background factory-startup, autoexec disabled",
+    "status": "passed",
+    "model_file_count": 24,
+    "mesh_object_count": 24,
+    "unresolved_referenced_texture_count": 0,
+    "source_bytes_unchanged": true,
+    "representative_renders_inspected": [
+      "Wall_Plaster_Straight",
+      "Wall_Plaster_Door_Round",
+      "Window_Wide_Flat1",
+      "Balcony_Cross_Straight",
+      "Roof_RoundTiles_4x4",
+      "Stair_Interior_Simple"
+    ],
+    "ue_4_27_2_import_validation": "not performed"
+  }
+}

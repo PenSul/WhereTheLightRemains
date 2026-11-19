@@ -1,0 +1,22 @@
+{
+  "MooringHouseWest": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/Homefront/SM_MooringHouseWest_dbee1d1b/SM_MooringHouseWest/StaticMeshes/SM_MooringHouseWest.SM_MooringHouseWest",
+    "file": "SM_MooringHouseWest.glb",
+    "sha256": "dbee1d1bef90e4eec9ad9d2587132fbe2c78014a855e40eb0effb310f769a913",
+    "triangles": 3890
+  },
+  "HomeTimber": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/Homefront/SM_HomeTimber_e7273cc4/SM_HomeTimber/StaticMeshes/SM_HomeTimber.SM_HomeTimber",
+    "file": "SM_HomeTimber.glb",
+    "sha256": "e7273cc484e5139810a7993da498260eee40f3577cd22bbd53c7ebbd7ef1bfff",
+    "triangles": 4824
+  },
+  "credit": "Original AI-assisted procedural game scenery by the Where the Light Remains project, using the project paper atlas. No external assets.",
+  "contact_cm": {
+    "paving_rear_source_y": 267,
+    "foundation_front_source_y": 157,
+    "foundation_low_z": -38,
+    "quay_top_z": 0.2,
+    "doorstep_bottom_z": -0.1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "EchoLockets.png",
+  "authorship": "Original AI-assisted raster artwork, generated using OpenAI image generation for this project. Transparent medallions extracted from the original sheet.",
+  "textures": {
+    "T_LocketEmpty.png": "da095a1a9a502500397a10c79fa62b5507076e68f33804b8b95737845cea4dd7",
+    "T_LocketCandle.png": "413ba9bf7c44707b3c7932c72ea959302be911ffc7cd22712a1d810c6cf024f5",
+    "T_LocketCrate.png": "b4c8481709dc3ccd377649ad20cbc8104b007757fbf8881ea077a7bd5a6a0a6e",
+    "T_LocketBell.png": "b46bfee62457013af3f8eef8507313f085628081c485b748e18cc83ff1b9ebaf"
+  }
+}

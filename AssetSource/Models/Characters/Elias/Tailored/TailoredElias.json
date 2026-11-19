@@ -1,0 +1,151 @@
+{
+  "forward": "-Y",
+  "units": "metres",
+  "source": "Original Blender construction based on the approved Elias concept.",
+  "texture": "ambientCG Paper001 CC0, recoloured into 25 ink pigments; one shared atlas material per mesh in Unreal.",
+  "parts": {
+    "Body": {
+      "object": "SM_TailoredElias_Body",
+      "parent": null,
+      "pivot_m": [
+        0,
+        0,
+        0.93
+      ],
+      "vertices": 1274,
+      "polygons": 1224
+    },
+    "Scarf": {
+      "object": "SM_TailoredElias_Scarf",
+      "parent": "Body",
+      "pivot_m": [
+        0.016,
+        -0.143,
+        1.405
+      ],
+      "vertices": 440,
+      "polygons": 482
+    },
+    "Head": {
+      "object": "SM_TailoredElias_Head",
+      "parent": "Body",
+      "pivot_m": [
+        0,
+        -0.006,
+        1.505
+      ],
+      "vertices": 7397,
+      "polygons": 7848
+    },
+    "UpperArm_L": {
+      "object": "SM_TailoredElias_UpperArm_L",
+      "parent": "Body",
+      "pivot_m": [
+        -0.213,
+        0.001,
+        1.404
+      ],
+      "vertices": 434,
+      "polygons": 434
+    },
+    "Forearm_L": {
+      "object": "SM_TailoredElias_Forearm_L",
+      "parent": "UpperArm_L",
+      "pivot_m": [
+        -0.255,
+        -0.002,
+        1.107
+      ],
+      "vertices": 1204,
+      "polygons": 1238
+    },
+    "Thigh_L": {
+      "object": "SM_TailoredElias_Thigh_L",
+      "parent": null,
+      "pivot_m": [
+        -0.094,
+        0.013,
+        0.858
+      ],
+      "vertices": 396,
+      "polygons": 335
+    },
+    "Shin_L": {
+      "object": "SM_TailoredElias_Shin_L",
+      "parent": "Thigh_L",
+      "pivot_m": [
+        -0.101,
+        -0.001,
+        0.455
+      ],
+      "vertices": 216,
+      "polygons": 172
+    },
+    "Foot_L": {
+      "object": "SM_TailoredElias_Foot_L",
+      "parent": "Shin_L",
+      "pivot_m": [
+        -0.105,
+        -0.003,
+        0.138
+      ],
+      "vertices": 310,
+      "polygons": 246
+    },
+    "UpperArm_R": {
+      "object": "SM_TailoredElias_UpperArm_R",
+      "parent": "Body",
+      "pivot_m": [
+        0.213,
+        0.001,
+        1.404
+      ],
+      "vertices": 434,
+      "polygons": 434
+    },
+    "Forearm_R": {
+      "object": "SM_TailoredElias_Forearm_R",
+      "parent": "UpperArm_R",
+      "pivot_m": [
+        0.255,
+        -0.002,
+        1.107
+      ],
+      "vertices": 1204,
+      "polygons": 1238
+    },
+    "Thigh_R": {
+      "object": "SM_TailoredElias_Thigh_R",
+      "parent": null,
+      "pivot_m": [
+        0.094,
+        0.013,
+        0.858
+      ],
+      "vertices": 396,
+      "polygons": 335
+    },
+    "Shin_R": {
+      "object": "SM_TailoredElias_Shin_R",
+      "parent": "Thigh_R",
+      "pivot_m": [
+        0.101,
+        -0.001,
+        0.455
+      ],
+      "vertices": 216,
+      "polygons": 172
+    },
+    "Foot_R": {
+      "object": "SM_TailoredElias_Foot_R",
+      "parent": "Shin_R",
+      "pivot_m": [
+        0.105,
+        -0.003,
+        0.138
+      ],
+      "vertices": 310,
+      "polygons": 246
+    }
+  }
+}

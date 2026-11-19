@@ -1,0 +1,137 @@
+{
+  "sources": {
+    "watercolour": {
+      "file": "Harbour-watercolour-master.png",
+      "sha256": "99d1d509d14703161466a1a4419f854afd4b2190c17df77cc27bede5c2769418",
+      "source": "Original AI-assisted panoramic harbour painting, generated using OpenAI ImageGen from the project art direction."
+    },
+    "art": "Original harbour geometry, set dressing, shading and light masks by the development team with AI-assisted authoring. The existing set paper atlas and adopted lantern meshes are reused."
+  },
+  "new_or_reworked_meshes": [
+    "Apothecary",
+    "DoorCandleEcho",
+    "HarbourMoorings",
+    "HarbourSilvering",
+    "HarbourTerns",
+    "HomeTimber",
+    "HomeWindowPast",
+    "HomeWindowPresent",
+    "LanternBrackets",
+    "LanternStreetSundries",
+    "MooringHouseWest",
+    "PaintedHarbour",
+    "PermanentQuaySteps",
+    "RememberedStaircase",
+    "TideSkiff"
+  ],
+  "point_lights": {
+    "Home table flame": {
+      "position": [
+        -321,
+        -78,
+        139
+      ],
+      "candelas": 3.2,
+      "radius_cm": 210,
+      "tags": [
+        "Phase.Past"
+      ]
+    },
+    "Door letter wick": {
+      "position": [
+        162,
+        -48,
+        131
+      ],
+      "candelas": 1.2,
+      "radius_cm": 192,
+      "tags": [
+        "Echo.Letter"
+      ]
+    },
+    "Reed-side wick": {
+      "position": [
+        755,
+        -2,
+        45
+      ],
+      "candelas": 4.6,
+      "radius_cm": 155,
+      "tags": [
+        "Echo.Grass"
+      ]
+    },
+    "Shrine wick left": {
+      "position": [
+        1003,
+        -122,
+        103
+      ],
+      "candelas": 1.8,
+      "radius_cm": 135,
+      "tags": []
+    },
+    "Shrine wick right": {
+      "position": [
+        1053,
+        -124,
+        103
+      ],
+      "candelas": 1.8,
+      "radius_cm": 135,
+      "tags": []
+    },
+    "Third shrine wick": {
+      "position": [
+        1101,
+        -122,
+        103
+      ],
+      "candelas": 2.0,
+      "radius_cm": 144,
+      "tags": [
+        "Echo.Optional"
+      ]
+    },
+    "Lantern pool 593": {
+      "position": [
+        593,
+        -82,
+        214
+      ],
+      "candelas": 16.0,
+      "radius_cm": 332.0,
+      "tags": []
+    },
+    "Lantern pool 1447": {
+      "position": [
+        1447,
+        -82,
+        214
+      ],
+      "candelas": 16.0,
+      "radius_cm": 332.0,
+      "tags": []
+    },
+    "Lantern pool 2333": {
+      "position": [
+        2333,
+        -82,
+        379
+      ],
+      "candelas": 16.0,
+      "radius_cm": 332.0,
+      "tags": []
+    }
+  },
+  "left_limit_x": -803,
+  "parallax_depths_cm": [
+    0,
+    510,
+    722,
+    1008,
+    1750
+  ],
+  "animated_instances": 6,
+  "notes": "Kitchen window now looks through to the true harbour panorama; persistent message board remains supported when the door swings."
+}

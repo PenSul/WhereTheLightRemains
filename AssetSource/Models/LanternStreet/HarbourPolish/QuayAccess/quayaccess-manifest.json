@@ -1,0 +1,44 @@
+{
+  "MooringHouseWest": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/QuayAccess/SM_MooringHouseWest_0818ea3b/SM_MooringHouseWest/StaticMeshes/SM_MooringHouseWest.SM_MooringHouseWest",
+    "file": "SM_MooringHouseWest.glb",
+    "sha256": "0818ea3beabab856f71d3e8aea75b3d0380c9fcd4dfdfc49157d0a99b3ee460a",
+    "triangles": 4214
+  },
+  "HarbourMoorings": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/QuayAccess/SM_HarbourMoorings_0fb3a702/SM_HarbourMoorings/StaticMeshes/SM_HarbourMoorings.SM_HarbourMoorings",
+    "file": "SM_HarbourMoorings.glb",
+    "sha256": "0fb3a702122de7856c336f4675e09e81fc80fe644b3c4e364f6aeecf42097dee",
+    "triangles": 3595
+  },
+  "credit": "Original AI-assisted procedural game scenery by the Where the Light Remains project, using the project paper atlas. No external assets.",
+  "join_cm": {
+    "cottage_seam_x": -820,
+    "stone_top_facing": [
+      -15,
+      23,
+      15
+    ],
+    "stone_lower_facing": [
+      -46,
+      32,
+      16
+    ],
+    "paving_pitch": 74,
+    "service_stair_upper": [
+      2631.0,
+      118.0,
+      165.0
+    ],
+    "service_stair_lower": [
+      2817.0,
+      506.0,
+      36.0
+    ],
+    "closed_boundary_x": 2630,
+    "stair_treads": 10,
+    "stair_run": 430.28,
+    "pier_top_z": 36,
+    "waterline_z": -6.0
+  }
+}

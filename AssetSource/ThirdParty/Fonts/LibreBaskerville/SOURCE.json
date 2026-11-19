@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "assetFamily": "Libre Baskerville",
+  "sourceURL": "https://github.com/impallari/Libre-Baskerville",
+  "author": "Pablo Impallari; Rodrigo Fuenzalida; Libre Baskerville Project contributors",
+  "upstreamCommit": "9852edf75ece3af500a5ec61245f94788c3d4633",
+  "version": "2.005",
+  "retrievedAtUTC": "2026-10-14T13:58:11.931268+00:00",
+  "retrievalMethod": "GitHub connector fetch_file; original bytes checked against upstream Git blob SHA-1",
+  "license": "SIL Open Font License 1.1",
+  "licenseURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/OFL.txt",
+  "licenseFiles": [
+    "OFL.txt"
+  ],
+  "upstreamDocumentation": [
+    "FONTLOG.txt",
+    "README.md"
+  ],
+  "rights": {
+    "commercialGameUse": true,
+    "embedInGame": true,
+    "teamRedistribution": true,
+    "modify": true,
+    "conditions": [
+      "Keep copyright and the full OFL with redistributed font files and packaged game notices.",
+      "Font software and font derivatives remain under OFL; the game itself can use a separate license.",
+      "Do not sell font software by itself.",
+      "Rename a modified font derivative because Libre Baskerville is a Reserved Font Name."
+    ],
+    "officialFAQURL": "https://openfontlicense.org/ofl-faq/"
+  },
+  "fit": {
+    "style": "Calm printed serif for cream paper and ink notebook UI",
+    "referenceAssets": [
+      "WTLR-Art-Review-2026-10-14/dist/assets/paper-theatre/ui-v2/components/component-board.png",
+      "WTLR-Art-Review-2026-10-14/dist/assets/paper-theatre/ui-v2/held-journal/held-journal.png",
+      "WTLR-Art-Review-2026-10-14/dist/assets/paper-theatre/workshop.png"
+    ],
+    "directUses": {
+      "LibreBaskerville-Regular.ttf": "Journal evidence body, interact labels and quiet menu text",
+      "LibreBaskerville-Bold.ttf": "Journal chapter and evidence headings",
+      "LibreBaskerville-Italic.ttf": "Short recollection quotations and handwritten-note captions"
+    },
+    "minorAdjustment": {
+      "fontBinaryChanges": "None",
+      "body": "Keep evidence body at the reference 17 px; retain 100, 125 and 150 percent text-size settings.",
+      "inkColor": "#2B404D",
+      "wordmarkIfRegenerated": {
+        "firstLine": {
+          "text": "Where the",
+          "sizePx": 54,
+          "trackingPx": 1.1,
+          "measuredAdvancePx": 301.8
+        },
+        "secondLine": {
+          "text": "Light Remains",
+          "sizePx": 78,
+          "trackingPx": -1.15,
+          "measuredAdvancePx": 571.2
+        },
+        "note": "Measured FreeType advances are within 1 percent of the Georgia reference at 64/91 px; retain the 800 by 280 canvas and existing line positions."
+      }
+    }
+  },
+  "unreal427": {
+    "format": "Original static TTF files, not variable fonts",
+    "allHaveGlyfOutlines": true,
+    "allHaveNoFvarOrGvar": true,
+    "allFsTypeValues": [
+      0,
+      0,
+      0
+    ],
+    "referenceURL": "https://dev.epicgames.com/documentation/en-us/unreal-engine/importing-fonts?application_version=4.27",
+    "importPlan": "Import the three TTFs as Font Face assets and assign explicit Regular, Bold and Italic entries to one Composite Font.",
+    "italicNote": "The italic file internally reports family Libre Baskerville Italic; assign the Italic face explicitly rather than relying on automatic style-name inference.",
+    "validationLimit": "Source files and rasterizer checked; live Unreal import and packaging were outside this curation task."
+  },
+  "coverage": {
+    "verified": "Printable ASCII plus em dash, en dash, bullet, curly quotes and ellipsis are present in all three files.",
+    "localization": "This is a Latin serif family; CJK localization needs a separate compatible fallback font."
+  },
+  "files": [
+    {
+      "file": "LibreBaskerville-Regular.ttf",
+      "upstreamPath": "fonts/ttf/LibreBaskerville-Regular.ttf",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Regular.ttf",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Regular.ttf",
+      "gitBlobSHA1": "5a16e768f7f95f415cbfcfa81a55f786f0eaf3f3",
+      "sha256": "df9fddf43dbd7de435c316b86a52b3d6b3ad2f6fb2ed3f6fd8bdc1835f30eec1",
+      "bytes": 156008,
+      "originalBytesPreserved": true
+    },
+    {
+      "file": "LibreBaskerville-Bold.ttf",
+      "upstreamPath": "fonts/ttf/LibreBaskerville-Bold.ttf",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Bold.ttf",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Bold.ttf",
+      "gitBlobSHA1": "56b6ff0be6b0bcc25df2f8504fc2662d9ac703f2",
+      "sha256": "62e23c5e6bf1e68fc0ef4ddeeab894ac21c808027f6cb6730cda2055a159ae03",
+      "bytes": 154332,
+      "originalBytesPreserved": true
+    },
+    {
+      "file": "LibreBaskerville-Italic.ttf",
+      "upstreamPath": "fonts/ttf/LibreBaskerville-Italic.ttf",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Italic.ttf",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/fonts/ttf/LibreBaskerville-Italic.ttf",
+      "gitBlobSHA1": "aef48bd9a5c8a903744250387f2e90adfd2cc863",
+      "sha256": "82d05fab9a1c07f4eb4bc891fb0043a74fba1bed27ea919f61d94dbc5b54a4f6",
+      "bytes": 162224,
+      "originalBytesPreserved": true
+    },
+    {
+      "file": "OFL.txt",
+      "upstreamPath": "OFL.txt",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/OFL.txt",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/OFL.txt",
+      "gitBlobSHA1": "a9d0a898b56c49ffc9f5ef4795f3c8ec7d4d2c59",
+      "sha256": "28f6979946897ff9d8771ce4949e6c51fbfee99c29f31a93ffa575171ac37622",
+      "bytes": 4601,
+      "originalBytesPreserved": true,
+      "originalTextEncoding": "Latin-1; original byte sequence restored and proven by matching Git blob SHA-1"
+    },
+    {
+      "file": "FONTLOG.txt",
+      "upstreamPath": "FONTLOG.txt",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/FONTLOG.txt",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/FONTLOG.txt",
+      "gitBlobSHA1": "b1722e29b0da38840eeed2dfd30f87fc7001b371",
+      "sha256": "834cd63efb32fdbecbbd4ad3f5bba7ee526d7b94edbe348021196cc10e5977ae",
+      "bytes": 3387,
+      "originalBytesPreserved": true
+    },
+    {
+      "file": "README.md",
+      "upstreamPath": "README.md",
+      "sourceURL": "https://github.com/impallari/Libre-Baskerville/blob/9852edf75ece3af500a5ec61245f94788c3d4633/README.md",
+      "downloadURL": "https://raw.githubusercontent.com/impallari/Libre-Baskerville/9852edf75ece3af500a5ec61245f94788c3d4633/README.md",
+      "gitBlobSHA1": "efe08c7a24887a2b1e33afed51f31ff1d6a11e29",
+      "sha256": "df844460fd0ed37d107b87ab12255a5cb1c728a24dfcc079663ca41a442281f4",
+      "bytes": 748,
+      "originalBytesPreserved": true
+    }
+  ]
+}

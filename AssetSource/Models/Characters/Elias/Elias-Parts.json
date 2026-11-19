@@ -1,0 +1,120 @@
+{
+  "metres": true,
+  "forward": "-Y",
+  "height_m": 1.801,
+  "style": "Paper Theatre; faceted articulated puppet",
+  "parts": {
+    "Body": {
+      "object": "SM_Elias_Body",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.9300000071525574
+      ],
+      "vertices": 308,
+      "polygons": 280
+    },
+    "Head": {
+      "object": "SM_Elias_Head",
+      "pivot_m": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "vertices": 430,
+      "polygons": 427
+    },
+    "UpperArm_L": {
+      "object": "SM_Elias_UpperArm_L",
+      "pivot_m": [
+        -0.23000000417232513,
+        0.0,
+        1.4149999618530273
+      ],
+      "vertices": 30,
+      "polygons": 22
+    },
+    "Forearm_L": {
+      "object": "SM_Elias_Forearm_L",
+      "pivot_m": [
+        -0.28700000047683716,
+        -0.00800000037997961,
+        1.1150000095367432
+      ],
+      "vertices": 174,
+      "polygons": 178
+    },
+    "Thigh_L": {
+      "object": "SM_Elias_Thigh_L",
+      "pivot_m": [
+        -0.10000000149011612,
+        0.014999999664723873,
+        0.8700000047683716
+      ],
+      "vertices": 30,
+      "polygons": 22
+    },
+    "Shin_L": {
+      "object": "SM_Elias_Shin_L",
+      "pivot_m": [
+        -0.10700000077486038,
+        0.0,
+        0.44999998807907104
+      ],
+      "vertices": 138,
+      "polygons": 98
+    },
+    "UpperArm_R": {
+      "object": "SM_Elias_UpperArm_R",
+      "pivot_m": [
+        0.23000000417232513,
+        0.0,
+        1.4149999618530273
+      ],
+      "vertices": 30,
+      "polygons": 22
+    },
+    "Forearm_R": {
+      "object": "SM_Elias_Forearm_R",
+      "pivot_m": [
+        0.28700000047683716,
+        -0.00800000037997961,
+        1.1150000095367432
+      ],
+      "vertices": 174,
+      "polygons": 178
+    },
+    "Thigh_R": {
+      "object": "SM_Elias_Thigh_R",
+      "pivot_m": [
+        0.10000000149011612,
+        0.014999999664723873,
+        0.8700000047683716
+      ],
+      "vertices": 30,
+      "polygons": 22
+    },
+    "Shin_R": {
+      "object": "SM_Elias_Shin_R",
+      "pivot_m": [
+        0.10700000077486038,
+        0.0,
+        0.44999998807907104
+      ],
+      "vertices": 138,
+      "polygons": 98
+    }
+  },
+  "palette": {
+    "Coat": "674D3B",
+    "CoatEdge": "936B45",
+    "Ink": "303943",
+    "Boot": "40332A",
+    "Skin": "BD916A",
+    "Hair": "86817B",
+    "Scarf": "AC7831",
+    "Eye": "28251F",
+    "Paper": "CBB994"
+  },
+  "provenance": "Procedural Blender construction assisted by OpenAI from the approved Elias reference; no Tripo job submitted."
+}

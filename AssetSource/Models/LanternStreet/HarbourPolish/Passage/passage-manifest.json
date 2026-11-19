@@ -1,0 +1,31 @@
+{
+  "source": "Original project joinery, shader, light texture and lighting authored with AI assistance. The existing project material atlas supplies wood, brass and stone.",
+  "closed_center_cm": [
+    325,
+    0,
+    126
+  ],
+  "rear_hinge_cm": [
+    289.0,
+    -82.0,
+    0.0
+  ],
+  "leaf_span_cm": 179.10890541790488,
+  "closed_yaw": 66.29735404903377,
+  "height_cm": 250,
+  "thickness_cm": 8,
+  "open_yaw": -8.702645950966229,
+  "new_spotlight_candelas": {
+    "Writing shelf spill": 30.0,
+    "Memory candle spill": 19.0,
+    "Reed wick spill": 9.0,
+    "Shrine reading pool": 12.0,
+    "Third shrine spill": 8.0,
+    "Pool beam 593": 91.0,
+    "Pool beam 1447": 91.0,
+    "Pool beam 2333": 91.0
+  },
+  "light_shafts": 3,
+  "gate_component": "/Game/WTLR/Maps/L_LanternStreet.L_LanternStreet:PersistentLevel.StaticMeshActor_32.StaticMeshComponent0",
+  "leaf_component": "/Game/WTLR/Maps/L_LanternStreet.L_LanternStreet:PersistentLevel.BP_HouseDoorHinge_C_0.PaperSurface"
+}

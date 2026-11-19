@@ -1,0 +1,47 @@
+{
+  "file": "AssetSource/ThirdParty/Materials/ambientCG-Paper001/Paper001_1K-PNG_Color.png",
+  "bytes": 590728,
+  "sha256": "7243d9a0362dadfd7d0471be6e6abe8feb7fb6d2484db03ffa151086a6ebf06c",
+  "archiveSHA256": "6d2e474684bd6701434d2a811af2868a356b17fe3e22c43188d7494e25853874",
+  "archiveBytes": 10247535,
+  "originalArchiveBytesMatched": true,
+  "extraction": "Existing extracted color file matched the local archive byte for byte; no overwrite needed.",
+  "archiveLicenseMembers": [],
+  "format": "PNG",
+  "mode": "RGB",
+  "dimensions": [
+    1024,
+    600
+  ],
+  "sourceResolutionLabel": "1K-PNG; original dimensions are 1024 by 600",
+  "isPowerOfTwo": false,
+  "extrema": [
+    [
+      210,
+      255
+    ],
+    [
+      205,
+      255
+    ],
+    [
+      203,
+      254
+    ]
+  ],
+  "channelMean": [
+    244.485,
+    243.483,
+    241.635
+  ],
+  "channelStdDev": [
+    2.97,
+    2.818,
+    2.804
+  ],
+  "visualInspection": {
+    "performed": true,
+    "method": "Original PNG viewed without modification and compared with component-board, held-journal and workshop Paper Theatre references.",
+    "result": "Accepted: clean near-white paper with faint even fibers; no writing, folds, strong stains, hard shading or distressed details."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "camera_read": "continue: elderly silhouette, coat/scarf and joints readable; proportion proof viewed",
+  "refinement": "subtle edge chamfer; source material grain applied in engine",
+  "parts": [
+    {
+      "part": "SM_Elias_Body",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 308
+    },
+    {
+      "part": "SM_Elias_Head",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 430
+    },
+    {
+      "part": "SM_Elias_UpperArm_L",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 30
+    },
+    {
+      "part": "SM_Elias_Forearm_L",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 174
+    },
+    {
+      "part": "SM_Elias_Thigh_L",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 30
+    },
+    {
+      "part": "SM_Elias_Shin_L",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 138
+    },
+    {
+      "part": "SM_Elias_UpperArm_R",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 30
+    },
+    {
+      "part": "SM_Elias_Forearm_R",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 174
+    },
+    {
+      "part": "SM_Elias_Thigh_R",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 30
+    },
+    {
+      "part": "SM_Elias_Shin_R",
+      "bevel_m": 0.0024999999441206455,
+      "mesh_vertices": 138
+    }
+  ]
+}

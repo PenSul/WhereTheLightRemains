@@ -1,0 +1,191 @@
+{
+  "id": "quaternius-medieval-village-bell",
+  "title": "Medieval Village Pack - single ordinary brass bell",
+  "author": "Quaternius",
+  "archive": "quaternius-medieval-village-props.zip",
+  "archive_sha256": "60eb99663e27fa86c9966dc31deac2f0710ac5f206dd626bf44df882e268a408",
+  "archive_size_bytes": 4006298,
+  "source_url": "https://quaternius.com/packs/medievalvillage.html",
+  "creator_release_url": "https://www.patreon.com/quaternius/posts/medieval-village-45532344",
+  "download_url": "https://drive.google.com/drive/folders/18T92VcNldHG0ugWo1u0hSJGDLua-n7o5",
+  "download_method": "Original creator public release links this public Drive folder; the original Props ZIP was downloaded without account creation, payment or new terms acceptance.",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence": "Original creator pack page explicitly identifies the pack as CC0; the original creator Patreon release also grants CC0 and links the exact public Drive download. Complete canonical CC0 legal code retained.",
+  "licenseProofMethod": "Explicit original creator webpage and original release CC0 grants, linked original archive provenance, plus retained full canonical CC0 legal code.",
+  "license_review_utc": "2026-10-14T16:11:13.366452+00:00",
+  "license_proof_urls": [
+    "https://quaternius.com/packs/medievalvillage.html",
+    "https://www.patreon.com/quaternius/posts/medieval-village-45532344"
+  ],
+  "canonical_license_text": {
+    "source_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "copied_from_existing_project_path": "AssetSource/ThirdParty/Materials/ambientCG-Paper001/CC0-1.0.txt",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "is_original_creator_notice": false
+  },
+  "unavailable_original_license_notice": {
+    "url": "https://drive.google.com/file/d/1LR9tv4lpj1lS5ndYkWMWxZLHaAKjCNDk/view",
+    "download_url": "https://drive.google.com/uc?export=download&id=1LR9tv4lpj1lS5ndYkWMWxZLHaAKjCNDk",
+    "status": "not retained",
+    "reason": "The request returned a Google Drive quota-exceeded HTML page, not the creator notice. No retry was required after confirming the explicit primary creator CC0 grants."
+  },
+  "retrieved_utc_date": "2026-10-14",
+  "model_count": 1,
+  "rejected_or_omitted_roles": [
+    "All other legacy village props and all whole buildings; only the single reviewed Bell FBX is retained."
+  ],
+  "missing_roles": [
+    "Hanging bracket/rope mount for level placement is not part of the bell mesh."
+  ],
+  "readme": "# Quaternius Medieval Village Pack - single bell\n\nOne unmodified original Bell.fbx selected for Where the Light Remains.\nCreator: Quaternius. Original pack: https://quaternius.com/packs/medievalvillage.html\nCreator release and linked original download:\nhttps://www.patreon.com/quaternius/posts/medieval-village-45532344\nhttps://drive.google.com/drive/folders/18T92VcNldHG0ugWo1u0hSJGDLua-n7o5\n\nThe creator's pack page and release explicitly grant CC0. CC0-1.0.txt is the\ncomplete Creative Commons legal code, copied byte-for-byte from the project's\nexisting official legal-code record. It is not represented as the creator's\nseparate License.txt: that Drive request returned quota-exceeded HTML. The\nexplicit primary creator grant and full CC0 text are the license evidence.\nSOURCE.json records both evidence URLs and this distinction.\n\nThe low-poly brass bell has a simple flared body and suspension loop, close to\nthe ordinary Paper Theatre bell. No tower, ornate support or fantasy decoration\nis included. A hanging bracket/rope mount is not part of this source mesh.\n\nBlender 5.2.2 LTS imported the FBX in a separate background factory-startup\nprocess: one mesh, 405 vertices, 779 triangles, 0.633 x 0.633 x 0.733 m bounds,\none brass-coloured material and no external texture dependency. Its imported\nmaterial has Alpha=0. An opacity-only temporary preview was visually inspected,\nretaining the original geometry and brass base colour. Set opacity to 1 or\nassign the planned opaque paper material in a derived working copy. The source\nhas no UV layers; a simple/world-coordinate surface or small UV unwrap suffices.\nThe origin is (0,0,0), near the bottom rather than the suspension loop. Set an\nappropriate hanging pivot and scale during the derived asset preparation.\n\nSource FBX and license bytes remain unchanged. UE 4.27.2 import, collision,\nlightmap and final paper-material validation have not been performed. No .blend\nsource, other legacy props or generated substitute mesh is retained here.\n",
+  "files": [
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-bell/Props/FBX/Bell.fbx",
+      "archive_path": "Props/FBX/Bell.fbx",
+      "size_bytes": 29388,
+      "sha256": "deb893f38261b08d74ab752a04dca05594252b9a93cde014c44acf3f4d3fabf8",
+      "category": "prop",
+      "role": "Ordinary brass bell with suspension loop",
+      "fit_rationale": "The opacity-only preview shows a simple low-poly flared brass bell and suspension loop, matching the reference ordinary bell construction. No fantasy decoration, tower or ornate support needs removal.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by actual Blender silhouette inspection; subjective visual estimate. Small opacity/paper-material, scale/pivot and optional UV adjustments remain.",
+      "minor_adjustments": [
+        "Restore material opacity to 1 or assign the planned opaque brass paper material in a derived working copy; Blender 5.2.2 imports the legacy material with Alpha=0.",
+        "Match the bell scale and suspension pivot to the level mount; imported bounds are approximately 0.633 x 0.633 x 0.733 m.",
+        "The source has no UV layers. Use a simple/world-coordinate paper surface or make a small UV unwrap in a derived working copy."
+      ],
+      "source_materials": [
+        "Bell"
+      ],
+      "required_texture_filenames": [],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 405,
+        "triangle_count": 779,
+        "bounds_min_m": [
+          -0.316573,
+          -0.316573,
+          -0.000719
+        ],
+        "bounds_max_m": [
+          0.316573,
+          0.316573,
+          0.731794
+        ],
+        "dimensions_m": [
+          0.633145,
+          0.633145,
+          0.732513
+        ],
+        "material_names": [
+          "Bell"
+        ],
+        "material_image_node_count": 0,
+        "principled_alpha_values": {
+          "Bell": [
+            0.0
+          ]
+        },
+        "texture_relink_count": 0,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Bell",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [],
+            "colour_attributes": [],
+            "material_slots": [
+              "Bell"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": [
+          {
+            "material": "Bell",
+            "input": "Alpha",
+            "original": 0.0,
+            "temporary_preview_value": 1.0
+          }
+        ],
+        "material_caveat": "The legacy Bell material imports with Principled Alpha=0. The silhouette preview restores Alpha=1 in memory only, retaining the source brass colour. The source has no UVs or image dependencies; assign the planned opaque material in a derived working copy.",
+        "art_fit_caveat": "Simple brass bell silhouette fits; no hanging bracket or rope mount is supplied. Its source has no UVs and the imported alpha requires an opacity correction."
+      }
+    },
+    {
+      "kind": "license",
+      "path": "AssetSource/ThirdParty/Models/quaternius-medieval-village-bell/CC0-1.0.txt",
+      "size_bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "Full canonical CC0 1.0 Universal legal code",
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "is_original_creator_notice": false
+    }
+  ],
+  "verification": {
+    "style_references_inspected": [
+      "lantern-street.png",
+      "footbridge.png",
+      "workshop.png",
+      "house-landing.png",
+      "character-props.png",
+      "environment-story-kit.png"
+    ],
+    "creator_previews_inspected": true,
+    "zip_paths_checked": true,
+    "source_license_texts_inspected": true,
+    "fbx_glb_import_validation": "Passed in separate Blender 5.2.2 LTS background factory-startup process; UE 4.27.2 remains unvalidated.",
+    "blender_or_unreal_live_editor_changes": "none",
+    "render_validation": {
+      "blender_version": "5.2.2 LTS",
+      "representative_models_rendered_and_inspected": [
+        "Bell"
+      ],
+      "all_models_rendered": true,
+      "source_bytes_modified": false,
+      "paper_material_refinement_performed": false,
+      "temporary_material_adjustments": {
+        "Bell": [
+          {
+            "material": "Bell",
+            "input": "Alpha",
+            "original": 0.0,
+            "temporary_preview_value": 1.0
+          }
+        ]
+      }
+    },
+    "generated_substitute_models": "none"
+  },
+  "blender_import_validation": {
+    "version": "5.2.2 LTS",
+    "checked_utc": "2026-10-14T16:11:52.197930+00:00",
+    "process_mode": "separate background factory-startup, autoexec disabled",
+    "status": "passed",
+    "model_file_count": 1,
+    "mesh_object_count": 1,
+    "unresolved_referenced_texture_count": 0,
+    "source_bytes_unchanged": true,
+    "representative_renders_inspected": [
+      "Bell"
+    ],
+    "ue_4_27_2_import_validation": "not performed"
+  }
+}

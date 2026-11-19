@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "assetId": "ambientCG-Paper001",
+  "assetName": "Paper 001 color grain",
+  "sourceURL": "https://ambientcg.com/view?id=Paper001",
+  "canonicalShortURL": "https://ambientcg.com/a/Paper001",
+  "author": "Lennart Demes / ambientCG",
+  "creatorIdentityURL": "https://docs.ambientcg.com/legal/",
+  "license": "Creative Commons CC0 1.0 Universal",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseDeclarationURL": "https://docs.ambientcg.com/license/",
+  "licenseFiles": [
+    "CC0-1.0.txt",
+    "LICENSE-SOURCE.html"
+  ],
+  "licenseArchiveNote": "The original ZIP contains no license text member. The full official CC0 text and official ambientCG license declaration already provided locally are preserved separately with hashes.",
+  "rights": {
+    "commercialUse": true,
+    "modify": true,
+    "teamRedistribution": true,
+    "rawFilesInGameProject": true,
+    "attributionRequired": false
+  },
+  "suggestedCredit": "Created using Paper001 from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License.",
+  "archive": {
+    "file": "Paper001_1K-PNG.zip",
+    "providedByUser": true,
+    "downloadURL": "https://ambientcg.com/get?file=Paper001_1K-PNG.zip",
+    "sha256": "6d2e474684bd6701434d2a811af2868a356b17fe3e22c43188d7494e25853874",
+    "bytes": 10247535,
+    "acceptedMember": "Paper001_1K-PNG_Color.png",
+    "archiveLicenseMembers": [],
+    "retention": "The project includes the original colour texture. The download URL supplies the complete archive."
+  },
+  "files": [
+    {
+      "file": "Paper001_1K-PNG_Color.png",
+      "archiveMember": "Paper001_1K-PNG_Color.png",
+      "sourceURL": "https://ambientcg.com/view?id=Paper001",
+      "sha256": "7243d9a0362dadfd7d0471be6e6abe8feb7fb6d2484db03ffa151086a6ebf06c",
+      "bytes": 590728,
+      "originalArchiveBytesMatched": true,
+      "format": "PNG",
+      "mode": "RGB",
+      "dimensions": [
+        1024,
+        600
+      ]
+    },
+    {
+      "file": "CC0-1.0.txt",
+      "sourceURL": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+      "role": "Full official Creative Commons CC0 legal code",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048,
+      "localBytesPreserved": true
+    },
+    {
+      "file": "LICENSE-SOURCE.html",
+      "sourceURL": "https://docs.ambientcg.com/license/",
+      "role": "Official ambientCG declaration that CC0 applies to downloadable assets and raw game-project files",
+      "sha256": "60138e09b277c89977841462634b36e99d7bae5b77174777813502069c59461c",
+      "bytes": 34106,
+      "localBytesPreserved": true
+    }
+  ],
+  "fitness": {
+    "judgment": "High: a subtle universal paper grain for the existing blank shallow card props and notebook UI.",
+    "visualInspection": {
+      "performed": true,
+      "method": "Original PNG viewed without modification and compared with component-board, held-journal and workshop Paper Theatre references.",
+      "result": "Accepted: clean near-white paper with faint even fibers; no writing, folds, strong stains, hard shading or distressed details."
+    },
+    "uses": [
+      "Notebook pages",
+      "Trace/evidence slips",
+      "Cream card panels",
+      "Small paper signs and printed labels"
+    ],
+    "minorAdjustment": {
+      "sourceImageChanges": "None; retain the original 1024 x 600 PNG bytes.",
+      "targetCreamHex": "#F4E7CC",
+      "grainAmount": 0.08,
+      "materialRecipe": "BaseColor = Cream * lerp(1, PaperColor.rgb, GrainAmount). Use a color texture sample with sRGB enabled.",
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "normalOrDisplacementMaps": "Not used",
+      "uvScale": [
+        1.0,
+        1.0
+      ],
+      "uiImport": {
+        "textureGroup": "UI",
+        "mipGenSettings": "NoMipmaps",
+        "addressing": "Clamp",
+        "note": "A fixed UI card can sample the original non-power-of-two image directly."
+      },
+      "worldCardImport": {
+        "powerOfTwoMode": "Pad to Power of Two",
+        "paddingColorHex": "#F4F3F2",
+        "generatedBackingDimensions": [
+          1024,
+          1024
+        ],
+        "mipGenSettings": "SimpleAverage",
+        "sourceContentUVScale": [
+          1.0,
+          0.5859375
+        ],
+        "note": "For world props, pad during Unreal import so the engine can generate mips without editing the source. Keep UVs in the original 600-row content region and check the import preview before applying the material."
+      }
+    }
+  },
+  "unreal427": {
+    "referenceURL": "https://dev.epicgames.com/documentation/en-us/unreal-engine/texture-properties?application_version=4.27",
+    "sourceIsNonPowerOfTwo": true,
+    "importHandling": {
+      "powerOfTwoMode": "Pad to Power of Two",
+      "paddingColorHex": "#F4F3F2",
+      "generatedBackingDimensions": [
+        1024,
+        1024
+      ],
+      "mipGenSettings": "SimpleAverage",
+      "sourceContentUVScale": [
+        1.0,
+        0.5859375
+      ],
+      "note": "For world props, pad during Unreal import so the engine can generate mips without editing the source. Keep UVs in the original 600-row content region and check the import preview before applying the material."
+    },
+    "validationLimit": "Source PNG, archive equality and visual fit verified. Live Unreal import, padding and rendering were not performed."
+  },
+  "verifiedAtUTC": "2026-10-14T15:26:51.363546+00:00"
+}

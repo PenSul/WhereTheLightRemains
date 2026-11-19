@@ -1,0 +1,54 @@
+{
+  "elias_facing_world_xyz": [
+    1.0,
+    -0.0,
+    0.0
+  ],
+  "map": "/Game/WTLR/Maps/L_LanternStreet",
+  "phase": "Present",
+  "location_cm": [
+    -500.0,
+    0.0,
+    88.15
+  ],
+  "camera_location_cm": [
+    -500.0,
+    1050.0,
+    198.15
+  ],
+  "camera_fov": 48.0,
+  "camera_rotation": {
+    "pitch": -3.5,
+    "yaw": -90.0,
+    "roll": -0.0
+  },
+  "viewport": [
+    1152.0,
+    650.0
+  ],
+  "lighting": "In-game practical lighting, exposure and fixture settings from the captured map.",
+  "subject": "Articulated paper Elias at the normal new-journey home start. No HUD, prompts, additional camera, or external artwork.",
+  "image_dimensions": [
+    1152,
+    650
+  ],
+  "ok": true,
+  "error": "",
+  "capture_crop_xyxy": [
+    0,
+    1,
+    1152,
+    649
+  ],
+  "delivered_dimensions": [
+    1152,
+    648
+  ],
+  "sha256": "ae3759ca74e86e028803d6f2da8616cae9e0e55aec071bded5c5bd57357322dd",
+  "capture_input_sha256": {
+    "Config/DefaultEngine.ini": "8922daf4d0a58ff67b1b8cf3b2d71f90ea2c48a10fa255687a3294b43b5d70a8",
+    "Content/WTLR/Maps/L_LanternStreet.umap": "cc80768994bb067a883d6789a738fec3d83bea6c77d21b239ba98c441f6bfda3",
+    "Content/WTLR/Player/BP_Elias.uasset": "748123fc2e9d4d41db35da97f2c6a2b495f45cbbc02ec964d77b5a6b5e262e27",
+    "Content/WTLR/Art/LanternStreet/Polish/Materials/M_FamilyPhotoMount.uasset": "ab09f1010529e3e2e15d718f68ef188315bf56a6f8bc57290726a294d43f25a8"
+  }
+}

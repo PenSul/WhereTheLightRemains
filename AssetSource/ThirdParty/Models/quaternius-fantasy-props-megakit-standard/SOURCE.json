@@ -1,0 +1,1198 @@
+{
+  "id": "quaternius-fantasy-props-megakit-standard",
+  "title": "Fantasy Props MegaKit - ordinary harbour/household Standard selection",
+  "author": "Quaternius",
+  "archive": "quaternius-fantasy-props-megakit-standard.zip",
+  "source_url": "https://quaternius.com/packs/fantasypropsmegakit.html",
+  "download_url": "https://quaternius.itch.io/fantasy-props-megakit",
+  "download_method": "Original creator itch.io Standard edition, No thanks just take me to the downloads; no payment, account creation, or new terms acceptance.",
+  "source_preview_url": "https://quaternius.com/assets/images/fullres/fantasypropsmegakit/standard.jpg",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence": "Original creator website and itch.io page explicitly mark the assets CC0; exact License_Standard.txt retained from downloaded ZIP.",
+  "rejected_or_omitted_roles": [
+    "All swords, axes, shields and weapon furniture",
+    "Potions, fantasy banners, chalices and ornate chests",
+    "Lantern_Wall as the defining street lantern because its cage silhouette is too different from the reference",
+    "All redundant barrel/book/crate/rope variants",
+    "Beds and bookcases already covered by the ordinary Kenney selection",
+    "Hoist/pulley mechanism not present in the free selected set"
+  ],
+  "missing_roles": [
+    "Defining tapered street lantern",
+    "Bell",
+    "Open ledger/book",
+    "Complete pulley/crank mechanism",
+    "Torn plain cloth and damaged paper props"
+  ],
+  "readme": "# Quaternius Fantasy Props MegaKit - ordinary prop selection\n\n11 unmodified original FBXs: one crate, barrel, bench, stool, rope coil, closed\nbook, bottle, pot, peg rack, workbench and wall shelf. No combat/fantasy items.\nOriginal source: https://quaternius.com/packs/fantasypropsmegakit.html\nOriginal download: https://quaternius.itch.io/fantasy-props-megakit\nAuthor: Quaternius. CC0 1.0 Universal; exact License_Standard.txt retained.\n\nThe simple wood faces and everyday silhouettes fit the Paper Theatre harbour,\nworkshop and house references. Limit changes to the reference palette, paper\nsurface, small scale/pivot corrections and texture relinking. The source texture\nsets used by these models are retained, including the creator's alternate Unreal\nnormal maps. Their source material slots are documented in SOURCE.json.\n\nThe street lantern, open ledger, bell, plant and hoist remain explicit gaps. The\ncage-like wall lantern was omitted because it does not match the defining street\nlantern silhouette closely enough. Creator previews and metadata were inspected;\nAll 11 FBXs passed a separate Blender 5.2.2 LTS background import with no\nunresolved referenced texture images after original-image relinking. Eight\nrepresentative stock-material renders were inspected. Book and bottle source\ncolour attributes survive import, but their FBX material graphs do not connect\na vertex-colour shader node; inspect that connection when preparing a derived\nworking material. The stool seat is round. Source bytes and hashes remain\nunchanged. UE 4.27.2 import/render verification remains pending.\n",
+  "retrieved_utc_date": "2026-10-14",
+  "archive_sha256": "8b6f7e806d222e585478f0e1bdc6b271bbc7bc6f84dd6af8ca703a7c64f0cb1e",
+  "model_count": 11,
+  "files": [
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Crate_Wooden.fbx",
+      "archive_path": "Exports/FBX/Crate_Wooden.fbx",
+      "size_bytes": 59580,
+      "sha256": "1cea14e2d937586186cc8f0c0ca01b33fd999030622bc4c33133c7d91c257916",
+      "category": "prop",
+      "role": "One braced wooden harbour crate",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture",
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png",
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 1056,
+        "triangle_count": 1576,
+        "bounds_min_m": [
+          -0.425845,
+          -0.454147,
+          -0.052432
+        ],
+        "bounds_max_m": [
+          0.416414,
+          0.454147,
+          0.878496
+        ],
+        "dimensions_m": [
+          0.842258,
+          0.908293,
+          0.930928
+        ],
+        "material_names": [
+          "MI_Trim_Furniture",
+          "MI_Trim_Metal"
+        ],
+        "material_image_node_count": 4,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture": [
+            1.0
+          ],
+          "MI_Trim_Metal": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 4,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Crate_Wooden",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              0.78,
+              0.78,
+              0.78
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Furniture",
+              "MI_Trim_Metal"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Barrel.fbx",
+      "archive_path": "Exports/FBX/Barrel.fbx",
+      "size_bytes": 43820,
+      "sha256": "ab4fa392eb5122fcffa9aed225e4136cbf2d34ceb8c53141cd951c1d69ebdb2d",
+      "category": "prop",
+      "role": "One ordinary wooden storage barrel",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture",
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png",
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 486,
+        "triangle_count": 824,
+        "bounds_min_m": [
+          -0.349016,
+          -0.349016,
+          0.003437
+        ],
+        "bounds_max_m": [
+          0.349015,
+          0.349016,
+          0.901395
+        ],
+        "dimensions_m": [
+          0.698031,
+          0.698031,
+          0.897958
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.001",
+          "MI_Trim_Metal.001"
+        ],
+        "material_image_node_count": 4,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.001": [
+            1.0
+          ],
+          "MI_Trim_Metal.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 4,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Barrel",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Furniture.001",
+              "MI_Trim_Metal.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Bench.fbx",
+      "archive_path": "Exports/FBX/Bench.fbx",
+      "size_bytes": 34604,
+      "sha256": "cd55d1c21ee5055a2002739268014138f3cfe06c7a5cb9fcee3f22c55196d6f3",
+      "category": "prop",
+      "role": "Plain street or landing bench",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture",
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png",
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 236,
+        "triangle_count": 404,
+        "bounds_min_m": [
+          -1.388341,
+          -0.272147,
+          -0.007262
+        ],
+        "bounds_max_m": [
+          1.388341,
+          0.26212,
+          0.525952
+        ],
+        "dimensions_m": [
+          2.776682,
+          0.534267,
+          0.533214
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.002",
+          "MI_Trim_Metal.002"
+        ],
+        "material_image_node_count": 4,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.002": [
+            1.0
+          ],
+          "MI_Trim_Metal.002": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 4,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Bench",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Furniture.002",
+              "MI_Trim_Metal.002"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Stool.fbx",
+      "archive_path": "Exports/FBX/Stool.fbx",
+      "size_bytes": 24540,
+      "sha256": "4eed4a314f6373444cb4e3192e2c76ff67514984f1fc5d167ccf06df1b55b5ed",
+      "category": "prop",
+      "role": "Small ordinary workshop stool",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 96,
+        "triangle_count": 152,
+        "bounds_min_m": [
+          -0.237611,
+          -0.236998,
+          -0.006449
+        ],
+        "bounds_max_m": [
+          0.236998,
+          0.237611,
+          0.582274
+        ],
+        "dimensions_m": [
+          0.474608,
+          0.474608,
+          0.588723
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.003"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.003": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Stool",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Furniture.003"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": [],
+        "art_fit_caveat": "Round seat; ordinary stool style fits, but differs from the square reference seat."
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Rope_1.fbx",
+      "archive_path": "Exports/FBX/Rope_1.fbx",
+      "size_bytes": 61532,
+      "sha256": "1f91365215840b22a92ebd23e9c8653faf7f90da754802d3f70cad7d6b8d84d5",
+      "category": "prop",
+      "role": "One coiled harbour rope",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 876,
+        "triangle_count": 1748,
+        "bounds_min_m": [
+          -0.285604,
+          -0.274534,
+          -0.026871
+        ],
+        "bounds_max_m": [
+          0.271785,
+          0.33177,
+          0.070987
+        ],
+        "dimensions_m": [
+          0.557389,
+          0.606304,
+          0.097859
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.004"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.004": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Rope_1",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_Trim_Furniture.004"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Book_Simplified_Single.fbx",
+      "archive_path": "Exports/FBX/Book_Simplified_Single.fbx",
+      "size_bytes": 22348,
+      "sha256": "22f6218c8c9770ac2e3a426ce0a72ae9347566ad1dac70c415dc5b9f4df66f0d",
+      "category": "prop",
+      "role": "Plain closed book for the house or shelf",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Props_Vertex"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Props_Normal.png",
+        "T_Trim_Props_BaseColor.png",
+        "T_Trim_Props_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 28,
+        "triangle_count": 52,
+        "bounds_min_m": [
+          -0.028875,
+          -0.089115,
+          -0.000766
+        ],
+        "bounds_max_m": [
+          0.03572,
+          0.120856,
+          0.267568
+        ],
+        "dimensions_m": [
+          0.064595,
+          0.209971,
+          0.268335
+        ],
+        "material_names": [
+          "MI_Trim_Props_Vertex"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Props_Vertex": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Book_Simplified_Single",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Props_Vertex"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": [],
+        "material_caveat": "Vertex-named source material has no vertex-colour shader node in the imported FBX graph; source colour attributes are recorded for later material reconstruction."
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Bottle_1.fbx",
+      "archive_path": "Exports/FBX/Bottle_1.fbx",
+      "size_bytes": 28556,
+      "sha256": "720b7c0e7619d408314c05d1dd47fd4b01f7a671560d4d8ec651ac467af76783",
+      "category": "prop",
+      "role": "Ordinary bottle for the shop or workshop shelf",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Props_Vertex"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Props_Normal.png",
+        "T_Trim_Props_BaseColor.png",
+        "T_Trim_Props_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 160,
+        "triangle_count": 312,
+        "bounds_min_m": [
+          -0.055779,
+          -0.056445,
+          0.001576
+        ],
+        "bounds_max_m": [
+          0.056965,
+          0.056445,
+          0.366242
+        ],
+        "dimensions_m": [
+          0.112743,
+          0.11289,
+          0.364667
+        ],
+        "material_names": [
+          "MI_Trim_Props_Vertex.001"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Props_Vertex.001": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Bottle_1",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Props_Vertex.001"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": [],
+        "material_caveat": "Vertex-named source material has no vertex-colour shader node in the imported FBX graph; source colour attributes are recorded for later material reconstruction."
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Pot_1.fbx",
+      "archive_path": "Exports/FBX/Pot_1.fbx",
+      "size_bytes": 47228,
+      "sha256": "98b6d67dae73fcd0fa67100440c333732794faf71a80352c6b7c6a9d270e0b7d",
+      "category": "prop",
+      "role": "Simple household metal cooking pot",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 556,
+        "triangle_count": 1068,
+        "bounds_min_m": [
+          -0.269657,
+          -0.243009,
+          -0.022608
+        ],
+        "bounds_max_m": [
+          0.269657,
+          0.243009,
+          0.201208
+        ],
+        "dimensions_m": [
+          0.539315,
+          0.486019,
+          0.223816
+        ],
+        "material_names": [
+          "MI_Trim_Metal.003"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Metal.003": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Pot_1",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_Trim_Metal.003"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Peg_Rack.fbx",
+      "archive_path": "Exports/FBX/Peg_Rack.fbx",
+      "size_bytes": 41788,
+      "sha256": "547c51f0c5b932604f34b6c88e0cbe68c9382b8ac2aabd000c434f31d19d2a99",
+      "category": "prop",
+      "role": "Wooden wall pegs for the lower house",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture",
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png",
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 476,
+        "triangle_count": 712,
+        "bounds_min_m": [
+          -0.591927,
+          -0.095685,
+          -0.173948
+        ],
+        "bounds_max_m": [
+          0.591927,
+          4e-05,
+          0.173948
+        ],
+        "dimensions_m": [
+          1.183854,
+          0.095725,
+          0.347895
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.005",
+          "MI_Trim_Metal.004"
+        ],
+        "material_image_node_count": 4,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.005": [
+            1.0
+          ],
+          "MI_Trim_Metal.004": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 4,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Peg_Rack",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_Trim_Furniture.005",
+              "MI_Trim_Metal.004"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Workbench.fbx",
+      "archive_path": "Exports/FBX/Workbench.fbx",
+      "size_bytes": 58668,
+      "sha256": "e2ec81a9d82a59bfe4548cc6c22cf53373bf94916e2f0873b1e45a20d1373b3c",
+      "category": "prop",
+      "role": "Wooden workbench with a lower storage surface",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture",
+        "MI_Trim_Metal"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png",
+        "T_Trim_Metal_Normal.png",
+        "T_Trim_Metal_BaseColor.png",
+        "T_Trim_Metal_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 884,
+        "triangle_count": 1368,
+        "bounds_min_m": [
+          -1.009548,
+          -0.509445,
+          0.000175
+        ],
+        "bounds_max_m": [
+          1.009549,
+          0.514791,
+          0.89482
+        ],
+        "dimensions_m": [
+          2.019097,
+          1.024236,
+          0.894645
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.006",
+          "MI_Trim_Metal.005"
+        ],
+        "material_image_node_count": 4,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.006": [
+            1.0
+          ],
+          "MI_Trim_Metal.005": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 4,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Workbench",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [
+              "Attribute"
+            ],
+            "material_slots": [
+              "MI_Trim_Furniture.006",
+              "MI_Trim_Metal.005"
+            ]
+          }
+        ],
+        "source_material_render_inspected": true,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "model",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Exports/FBX/Shelf_Simple.fbx",
+      "archive_path": "Exports/FBX/Shelf_Simple.fbx",
+      "size_bytes": 33276,
+      "sha256": "4f8998b68bc896512a4bc7fabee025fd021cbcbde1938114d81b05ea74938086",
+      "category": "prop",
+      "role": "Plain small wall shelf for the workshop cutaway",
+      "fit_rationale": "The selected object is ordinary harbour or household furniture/stock, with broad wood faces or a simple vessel/rope silhouette. These shapes are close to the reference crates, barrels, shelves, books, ropes and workshop furnishings. No fantasy decoration or weapon is required for this selected model.",
+      "fit_assessment": "At least roughly 80 percent geometry suitability by creator Standard preview and source material inspection; subjective estimate.",
+      "minor_adjustments": [
+        "Retint material slots to wood brown, cream, navy or brass",
+        "Apply the project paper surface and reduce stock normal intensity",
+        "Check scene scale and pivot during private Blender import",
+        "Relink supplied source texture images if needed"
+      ],
+      "source_materials": [
+        "MI_Trim_Furniture"
+      ],
+      "required_texture_filenames": [
+        "T_Trim_Furniture_Normal.png",
+        "T_Trim_Furniture_BaseColor.png",
+        "T_Trim_Furniture_ORM.png"
+      ],
+      "blender_5_2_2_import_check": {
+        "status": "passed",
+        "mesh_count": 1,
+        "vertex_count": 252,
+        "triangle_count": 480,
+        "bounds_min_m": [
+          -0.592505,
+          -0.335817,
+          -0.201069
+        ],
+        "bounds_max_m": [
+          0.591349,
+          -0.043531,
+          0.107652
+        ],
+        "dimensions_m": [
+          1.183854,
+          0.292286,
+          0.308721
+        ],
+        "material_names": [
+          "MI_Trim_Furniture.007"
+        ],
+        "material_image_node_count": 2,
+        "principled_alpha_values": {
+          "MI_Trim_Furniture.007": [
+            1.0
+          ]
+        },
+        "texture_relink_count": 2,
+        "missing_texture_dependencies": [],
+        "objects": [
+          {
+            "name": "Shelf_Simple",
+            "type": "MESH",
+            "origin_world_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "local_scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "local_rotation_radians": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "uv_layers": [
+              "UVMap"
+            ],
+            "colour_attributes": [],
+            "material_slots": [
+              "MI_Trim_Furniture.007"
+            ]
+          }
+        ],
+        "source_material_render_inspected": false,
+        "temporary_preview_material_adjustments": []
+      }
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Furniture_BaseColor.png",
+      "archive_path": "Textures/T_Trim_Furniture_BaseColor.png",
+      "size_bytes": 2232961,
+      "sha256": "075fbc9ec2fabc15732bd4025b6f63a0b25762df38440d06bf30437565d39bab"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Furniture_Normal.png",
+      "archive_path": "Textures/T_Trim_Furniture_Normal.png",
+      "size_bytes": 3485710,
+      "sha256": "3340c4cc47ff06d5e94a2dbe2a2a12d914d0ef055fcf66f63d876666bd160e42"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/Normals-UnrealEngine/T_Trim_Furniture_Normal.png",
+      "archive_path": "Textures/Normals-UnrealEngine/T_Trim_Furniture_Normal.png",
+      "size_bytes": 3478660,
+      "sha256": "6e83ad61cebdafeefced7e47e638ed2236f5daf92c4d4479e772c648b41f5429"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Furniture_ORM.png",
+      "archive_path": "Textures/T_Trim_Furniture_ORM.png",
+      "size_bytes": 2064585,
+      "sha256": "7bf417e82baf313793c5791bf48cdc8e573f1f7136197785bf0eb235cb0f8153"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Metal_BaseColor.png",
+      "archive_path": "Textures/T_Trim_Metal_BaseColor.png",
+      "size_bytes": 1361221,
+      "sha256": "50422bbda9661effc259caf8b386224cac4b5ca811d2c5b3b8b25ae8efc714db"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Metal_Normal.png",
+      "archive_path": "Textures/T_Trim_Metal_Normal.png",
+      "size_bytes": 3625541,
+      "sha256": "ab7315c864c9a9e6d716c940a599928506e1569d3b0c9085f8f1a64ec520d790"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/Normals-UnrealEngine/T_Trim_Metal_Normal.png",
+      "archive_path": "Textures/Normals-UnrealEngine/T_Trim_Metal_Normal.png",
+      "size_bytes": 3622271,
+      "sha256": "b67264721d453d57193f3642aa153b96265cfa4fb2b0822a4ed47528e83f6e34"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Metal_ORM.png",
+      "archive_path": "Textures/T_Trim_Metal_ORM.png",
+      "size_bytes": 1871475,
+      "sha256": "7407bccfc39ca74ecd68a61217395959bf56ac2063e6c93b384b11f07f5687c5"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Props_BaseColor.png",
+      "archive_path": "Textures/T_Trim_Props_BaseColor.png",
+      "size_bytes": 2263132,
+      "sha256": "75225a4ccfd8cc358c871de7a7a3cab7118ef197419a88464e807b81716215c8"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Props_Normal.png",
+      "archive_path": "Textures/T_Trim_Props_Normal.png",
+      "size_bytes": 4441458,
+      "sha256": "c4b28a8ba8efe3108cd11356ecab67e8bf75a10cebf29c78ee7724552c305a3e"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/Normals-UnrealEngine/T_Trim_Props_Normal.png",
+      "archive_path": "Textures/Normals-UnrealEngine/T_Trim_Props_Normal.png",
+      "size_bytes": 4449962,
+      "sha256": "a6b4862aa273d8c68725f2ffd29f5bc75d82fb9e0103e97bb237667dc4aba8d5"
+    },
+    {
+      "kind": "dependency",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/Textures/T_Trim_Props_ORM.png",
+      "archive_path": "Textures/T_Trim_Props_ORM.png",
+      "size_bytes": 3017151,
+      "sha256": "2d83d8df79aca2c8f630d389b43f09113afee98e746dfd42ddc3ce3302a136a2"
+    },
+    {
+      "kind": "license",
+      "path": "AssetSource/ThirdParty/Models/quaternius-fantasy-props-megakit-standard/License_Standard.txt",
+      "archive_path": "License_Standard.txt",
+      "size_bytes": 837,
+      "sha256": "edad12240087a33e08fc031e4e66c2b2b4b2a6d4f086339bde04f741b385fbda"
+    }
+  ],
+  "verification": {
+    "style_references_inspected": [
+      "lantern-street.png",
+      "footbridge.png",
+      "workshop.png",
+      "house-landing.png",
+      "character-props.png",
+      "environment-story-kit.png"
+    ],
+    "creator_previews_inspected": true,
+    "zip_paths_checked": true,
+    "source_license_texts_inspected": true,
+    "fbx_glb_import_validation": "Passed in separate Blender 5.2.2 LTS background factory-startup process; UE 4.27.2 remains unvalidated.",
+    "blender_or_unreal_live_editor_changes": "none",
+    "render_validation": {
+      "blender_version": "5.2.2 LTS",
+      "representative_models_rendered_and_inspected": [
+        "Crate_Wooden",
+        "Barrel",
+        "Bench",
+        "Stool",
+        "Rope_1",
+        "Book_Simplified_Single",
+        "Peg_Rack",
+        "Workbench"
+      ],
+      "all_models_rendered": false,
+      "source_bytes_modified": false,
+      "paper_material_refinement_performed": false,
+      "temporary_material_adjustments": {}
+    },
+    "generated_substitute_models": "none"
+  },
+  "blender_import_validation": {
+    "version": "5.2.2 LTS",
+    "checked_utc": "2026-10-14T16:11:52.197930+00:00",
+    "process_mode": "separate background factory-startup, autoexec disabled",
+    "status": "passed",
+    "model_file_count": 11,
+    "mesh_object_count": 11,
+    "unresolved_referenced_texture_count": 0,
+    "source_bytes_unchanged": true,
+    "representative_renders_inspected": [
+      "Crate_Wooden",
+      "Barrel",
+      "Bench",
+      "Stool",
+      "Rope_1",
+      "Book_Simplified_Single",
+      "Peg_Rack",
+      "Workbench"
+    ],
+    "ue_4_27_2_import_validation": "not performed"
+  }
+}

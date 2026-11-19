@@ -1,0 +1,56 @@
+{
+  "UpperQuay": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/SkyQuay/SM_UpperQuay_4f6aeb73/SM_UpperQuay/StaticMeshes/SM_UpperQuay.SM_UpperQuay",
+    "sha256": "4f6aeb73c892e129e0508fd04dd11c8eb86aba52f68b76230e5805211722bfad",
+    "triangles": 936
+  },
+  "HighStepsFloorReturn": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/SkyQuay/SM_HighStepsFloorReturn_51c2bbd2/SM_HighStepsFloorReturn/StaticMeshes/SM_HighStepsFloorReturn.SM_HighStepsFloorReturn",
+    "sha256": "51c2bbd255c2a0a2fff9effe3d7b2781bd83acdc7cbfcdb147c12eb69cb12968",
+    "triangles": 248
+  },
+  "HarbourTernsHigh": {
+    "asset": "/Game/WTLR/Art/LanternStreet/Polish/SkyQuay/SM_HarbourTernsHigh_99afeaea/SM_HarbourTernsHigh/StaticMeshes/SM_HarbourTernsHigh.SM_HarbourTernsHigh",
+    "sha256": "99afeaea78573da51249e39cb675597920b26dcfd730f8f0a56930c5a4b00198",
+    "triangles": 196
+  },
+  "flight": {
+    "Terns over the harbour": [
+      744,
+      -1008,
+      425,
+      149,
+      13,
+      0.24,
+      0.5,
+      1.1
+    ],
+    "Terns above the landing": [
+      1870,
+      -1175,
+      458,
+      124,
+      12,
+      0.195,
+      3.9,
+      0.92
+    ],
+    "Terns off the breakwater": [
+      2968,
+      -1250,
+      500,
+      123,
+      18,
+      0.22,
+      2.0,
+      0.86
+    ]
+  },
+  "upper_quay": {
+    "stone_top": 165,
+    "mortar_top": 161,
+    "rear_join_y": 146,
+    "collision_top": 165
+  },
+  "source": "Original AI-assisted cut-paper scenery and Blueprint lighting/motion authored for Where the Light Remains using the existing project paper atlas and watercolour materials."
+}
