@@ -28,7 +28,7 @@ Install Unreal Engine 5.8.4, Git and Git LFS on Windows. Open PowerShell in the 
 
 ```powershell
 git lfs install
-git clone https://github.com/PenSul/WhereTheLightRemains.git
+git clone -c core.longpaths=true https://github.com/PenSul/WhereTheLightRemains.git
 cd WhereTheLightRemains
 git lfs pull
 git lfs fsck
