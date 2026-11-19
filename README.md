@@ -9,16 +9,16 @@ A quiet, side-view 3D puzzle game. Elias, an elderly widower, returns to a harbo
 3. Choose **Play → New Editor Window (PIE)**. At the lantern overlooking the quay, press any button to open the notebook. Select **New journey**. On the chapter page, leave **Skip opening** unchecked to see why Elias returned home, or check it to begin in the kitchen. Press **Escape** to skip during the cinematic.
 4. To resume, choose **Continue → Load journey**. The book shows your last checkpoint and the number of observations collected. During play, **Escape → Save book → Save progress** records your journey at its last safe checkpoint when Elias is in the Present and off his Echo.
 
-| Action | Default key |
-| --- | --- |
-| Walk | A / D or left / right arrow |
-| Jump | Space |
-| Inspect an object or read a clue | E |
-| Switch between Past and Present | Q |
-| Remember or place an Echo | F |
-| Recall the placed Echo | R |
-| Open or close the Journal | J |
-| Pause or go back | Escape |
+| Action                           | Default key                 |
+| -------------------------------- | --------------------------- |
+| Walk                             | A / D or left / right arrow |
+| Jump                             | Space                       |
+| Inspect an object or read a clue | E                           |
+| Switch between Past and Present  | Q                           |
+| Remember or place an Echo        | F                           |
+| Recall the placed Echo           | R                           |
+| Open or close the Journal        | J                           |
+| Pause or go back                 | Escape                      |
 
 **For an editor test**, use the same startup map and Play mode. To exercise the first puzzle, find the candle in the Past, confirm the memory, return to the Present and use it to read the door letter. After opening the door, recall the candle and use its heat at the grass. Keep a separate working copy when testing a fresh journey so your regular playthrough can be resumed.
 
@@ -40,7 +40,6 @@ For Blueprint work, open the Content Drawer and browse to **Content → WTLR**. 
 
 ## Design and attribution
 
-Aideen’s mechanics and level drawings informed the team’s single-Echo rules and the opening in Elias’s home. The current design brief describes the playable area, controls and puzzle rules. [Current design](Docs/GAME-DESIGN.md)
-
-For course submissions, credit each third-party and AI-assisted asset, including the original creator or provider, source, licence where applicable and team modifications. Preserve original licences alongside the source files. [Asset register](Docs/ASSET-CREDITS.csv) · [Asset conventions](Docs/ASSET-CONVENTIONS.md)
-
+[Current design](Docs/GAME-DESIGN.md)
+[Asset register](Docs/ASSET-CREDITS.csv)
+[Asset conventions](Docs/ASSET-CONVENTIONS.md)
